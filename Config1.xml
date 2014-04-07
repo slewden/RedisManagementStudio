@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Folder Open="1">
+  <Name>Bases</Name>
+  <Folders>
+    <Folder Open="1">
+      <Name>Serveurs Distants</Name>
+      <Description>Très très loin</Description>
+      <Folders>
+        <Folder Open="1">
+          <Name>Test 1</Name>
+          <Description>Description</Description>
+          <Folders />
+          <Connections>
+            <Connection>
+              <Name>Test SLew base 4 cool1</Name>
+              <Password>toto</Password>
+              <URL>http://192.168.22.1</URL>
+              <Base>3</Base>
+              <Color>-32768</Color>
+              <Description>Pour tests db N°4</Description>
+            </Connection>
+          </Connections>
+        </Folder>
+      </Folders>
+      <Connections />
+    </Folder>
+  </Folders>
+  <Connections />
+</Folder>

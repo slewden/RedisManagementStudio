@@ -1,0 +1,15 @@
+﻿
+TODOs Driver
+---------------
+Gestion du mode multi
+
+
+TODOs Manager
+---------------
+"Key policy"
+Merge 2 rdb File
+Intégrer : redis-cli
+
+
+Améliorer le monitoring et les points de suivi
+Améliorer la saisie des configs

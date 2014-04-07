@@ -1,0 +1,1459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CONFIGDappendfsync" xml:space="preserve">
+    <value>Indique la fréquence d'activation de la sauvegarde différentielle</value>
+  </data>
+  <data name="CONFIGDappendonly" xml:space="preserve">
+    <value>La sauvegarde différentielle est elle activée ?</value>
+  </data>
+  <data name="CONFIGDauto_aof_rewrite_min_size" xml:space="preserve">
+    <value>Taille minimale du fichier de sauvegarde diférentielle</value>
+  </data>
+  <data name="CONFIGDauto_aof_rewrite_percentage" xml:space="preserve">
+    <value>Pourcentage de données traitées (???)</value>
+  </data>
+  <data name="CONFIGDdbfilename" xml:space="preserve">
+    <value>Nom du fichier de base de données</value>
+  </data>
+  <data name="CONFIGDdir" xml:space="preserve">
+    <value>Dossier d'exécution</value>
+  </data>
+  <data name="CONFIGDhash_max_zipmap_entries" xml:space="preserve">
+    <value>Taille au delà de laquelle les clés de type HashSet sont compressés</value>
+  </data>
+  <data name="CONFIGDhash_max_zipmap_value" xml:space="preserve">
+    <value>Taille au delà de laquelle les valeurs de type HashSet sont compressés</value>
+  </data>
+  <data name="CONFIGDlist_max_ziplist_entries" xml:space="preserve">
+    <value>Taille au delà de laquelle les clés de type Listes sont compressés</value>
+  </data>
+  <data name="CONFIGDlist_max_ziplist_value" xml:space="preserve">
+    <value>Taille au delà de laquelle les valeurs de type Listes sont compressés</value>
+  </data>
+  <data name="CONFIGDloglevel" xml:space="preserve">
+    <value>Selectionne le niveau de log</value>
+  </data>
+  <data name="CONFIGDmasterauth" xml:space="preserve">
+    <value>Un mot de passe nécessaire pour l'accès au serveur</value>
+  </data>
+  <data name="CONFIGDmaxmemory" xml:space="preserve">
+    <value>Taille de la mémoire du serveur (0 si non limité)</value>
+  </data>
+  <data name="CONFIGDmaxmemory_policy" xml:space="preserve">
+    <value>Algorithme utilisé par le serveur pour la gestion mémoire</value>
+  </data>
+  <data name="CONFIGDmaxmemory_samples" xml:space="preserve">
+    <value>Taille maximale Exemple (??)</value>
+  </data>
+  <data name="CONFIGDno_appendfsync_on_rewrite" xml:space="preserve">
+    <value>Lorsqu'une sauvegarde est en cours la sauvegarde différentielle n'est pas active</value>
+  </data>
+  <data name="CONFIGDrequirepass" xml:space="preserve">
+    <value>Un mot de passe est nécessaire pour se connecter</value>
+  </data>
+  <data name="CONFIGDsave" xml:space="preserve">
+    <value>Effectue une sauvegarde totale disque si le nombre de changements dans l'intervale de temps d'une des configuration est atteind</value>
+  </data>
+  <data name="CONFIGDset_max_intset_entries" xml:space="preserve">
+    <value>Taille au delà de laquelle les clés d'éléments sont compressés</value>
+  </data>
+  <data name="CONFIGDslave_serve_stale_data" xml:space="preserve">
+    <value>L'abonnée d'une réplication peut fournir des données périmées (optimisation)</value>
+  </data>
+  <data name="CONFIGDslowlog_log_slower_than" xml:space="preserve">
+    <value>Seuil pour affiche le log des requête les plus longues</value>
+  </data>
+  <data name="CONFIGDslowlog_max_len" xml:space="preserve">
+    <value>Taille max des log affichés</value>
+  </data>
+  <data name="CONFIGDtimeout" xml:space="preserve">
+    <value>Duré au dela de la quelle une connexion client inactive est fermée</value>
+  </data>
+  <data name="CONFIGDzset_max_ziplist_entries" xml:space="preserve">
+    <value>Taille au delà de laquelle les clés de type ZSet sont compressés</value>
+  </data>
+  <data name="CONFIGDzset_max_ziplist_value" xml:space="preserve">
+    <value>Taille au delà de laquelle les valeurs de type ZSet sont compressés</value>
+  </data>
+  <data name="CONFIGTappendfsync" xml:space="preserve">
+    <value>Fréquence de synchronisation</value>
+  </data>
+  <data name="CONFIGTappendonly" xml:space="preserve">
+    <value>Sauvegarde différentielle</value>
+  </data>
+  <data name="CONFIGTauto_aof_rewrite_min_size" xml:space="preserve">
+    <value>Taille minimale fichier diférentiel</value>
+  </data>
+  <data name="CONFIGTauto_aof_rewrite_percentage" xml:space="preserve">
+    <value>Sauvegarde différentielle seuil</value>
+  </data>
+  <data name="CONFIGTdbfilename" xml:space="preserve">
+    <value>Nom fichier</value>
+  </data>
+  <data name="CONFIGTdir" xml:space="preserve">
+    <value>Dossier</value>
+  </data>
+  <data name="CONFIGThash_max_zipmap_entries" xml:space="preserve">
+    <value>Limite de compression pour les clés de HashSet</value>
+  </data>
+  <data name="CONFIGThash_max_zipmap_value" xml:space="preserve">
+    <value>Limite de compression pour les HashSet</value>
+  </data>
+  <data name="CONFIGTlist_max_ziplist_entries" xml:space="preserve">
+    <value>Limite de compression pour les clés de list</value>
+  </data>
+  <data name="CONFIGTlist_max_ziplist_value" xml:space="preserve">
+    <value>Limite de compression pour les Listes</value>
+  </data>
+  <data name="CONFIGTloglevel" xml:space="preserve">
+    <value>Niveau de log</value>
+  </data>
+  <data name="CONFIGTmasterauth" xml:space="preserve">
+    <value>Autentification serveur</value>
+  </data>
+  <data name="CONFIGTmaxmemory" xml:space="preserve">
+    <value>Mémoire maximale</value>
+  </data>
+  <data name="CONFIGTmaxmemory_policy" xml:space="preserve">
+    <value>Algorithme de gestion mémoire</value>
+  </data>
+  <data name="CONFIGTmaxmemory_samples" xml:space="preserve">
+    <value>Taille maximale Exemple (??)</value>
+  </data>
+  <data name="CONFIGTno_appendfsync_on_rewrite" xml:space="preserve">
+    <value>Différentiel durant la sauvegarde</value>
+  </data>
+  <data name="CONFIGTrequirepass" xml:space="preserve">
+    <value>Mot de passe requis</value>
+  </data>
+  <data name="CONFIGTsave" xml:space="preserve">
+    <value>Sauvegarde</value>
+  </data>
+  <data name="CONFIGTset_max_intset_entries" xml:space="preserve">
+    <value>Limite de compression pour les clés d'élements</value>
+  </data>
+  <data name="CONFIGTslave_serve_stale_data" xml:space="preserve">
+    <value>Abonné sert des données périmées</value>
+  </data>
+  <data name="CONFIGTslowlog_log_slower_than" xml:space="preserve">
+    <value>Seuil d'affichage des Log</value>
+  </data>
+  <data name="CONFIGTslowlog_max_len" xml:space="preserve">
+    <value>Taille max des log affichés</value>
+  </data>
+  <data name="CONFIGTtimeout" xml:space="preserve">
+    <value>Durée d'inactivité client</value>
+  </data>
+  <data name="CONFIGTzset_max_ziplist_entries" xml:space="preserve">
+    <value>Limite de compression pour les clés de ZSet</value>
+  </data>
+  <data name="CONFIGTzset_max_ziplist_value" xml:space="preserve">
+    <value>Limite de compression pour les ZSet</value>
+  </data>
+  <data name="Vappendfsync_everysec" xml:space="preserve">
+    <value>Toutes les secondes</value>
+  </data>
+  <data name="Vloglevel_debug" xml:space="preserve">
+    <value>Debuggage : toutes les informations utiles pour le développement et les tests</value>
+  </data>
+  <data name="Vloglevel_notice" xml:space="preserve">
+    <value>Modéré, uniquement les informations nécessaires en production</value>
+  </data>
+  <data name="Vloglevel_verbose" xml:space="preserve">
+    <value>Complet : Un grand nombre d'informations peu utile, mais qui peuvent aider parfois</value>
+  </data>
+  <data name="Vloglevel_warning" xml:space="preserve">
+    <value>Avertissement, uniquement les messages important (les messages critiques sont eux loggé)</value>
+  </data>
+  <data name="Vsave1" xml:space="preserve">
+    <value>S'il y a un changement durant {1}</value>
+  </data>
+  <data name="VsaveN" xml:space="preserve">
+    <value>S'il y a {0} changements durant {1}</value>
+  </data>
+  <data name="VsaveSepi" xml:space="preserve">
+    <value>ou </value>
+  </data>
+  <data name="INFOTaof_base_size" xml:space="preserve">
+    <value>Taille du fichier avant sauvegarde différentielle</value>
+  </data>
+  <data name="INFOTaof_buffer_length" xml:space="preserve">
+    <value>Taille du fichier de sauvegarde différentielle</value>
+  </data>
+  <data name="INFOTaof_currentre_write_time_sec" xml:space="preserve">
+    <value>Durée de la sauvegarde différentielle en cours</value>
+  </data>
+  <data name="INFOTaof_delayed_fsync" xml:space="preserve">
+    <value>Compteur d'interval synchronisation</value>
+  </data>
+  <data name="INFOTaof_current_size" xml:space="preserve">
+    <value>Taille du fichier de sauvegarde différentielle</value>
+  </data>
+  <data name="INFOTaof_enabled" xml:space="preserve">
+    <value>Sauvegarde différentielle activée</value>
+  </data>
+  <data name="INFOTaof_last_bgrewrite_status" xml:space="preserve">
+    <value>Statut de la dernière sauvegadre différentielle</value>
+  </data>
+  <data name="INFOTaof_last_rewritetime_sec" xml:space="preserve">
+    <value>Durée de la dernière sauvegarde différentielle</value>
+  </data>
+  <data name="INFOTaof_pending_bio_fsync" xml:space="preserve">
+    <value>Nombre de tâches de synchronisations des IO</value>
+  </data>
+  <data name="INFOTaof_pending_rewrite" xml:space="preserve">
+    <value>Différentielle effectuée après complète</value>
+  </data>
+  <data name="INFOTaof_rewrite_buffer_length" xml:space="preserve">
+    <value>Taille du fichier de réécriture du différentiel</value>
+  </data>
+  <data name="INFOTaof_rewrite_in_progress" xml:space="preserve">
+    <value>Sauvegarde différentielle en cours</value>
+  </data>
+  <data name="INFOTaof_rewrite_scheduled" xml:space="preserve">
+    <value>Différentielle après sauvegarde en cours</value>
+  </data>
+  <data name="INFOTarch_bits" xml:space="preserve">
+    <value>Achitecture</value>
+  </data>
+  <data name="INFOTbgrewrite_aof_in_progress" xml:space="preserve">
+    <value>Sauvegarde différentielle d'arrière plan en cours</value>
+  </data>
+  <data name="INFOTblocked_clients" xml:space="preserve">
+    <value>Nombre de clients bloqués</value>
+  </data>
+  <data name="INFOTclient_biggest_input_buf" xml:space="preserve">
+    <value>Taille maximale buffer d'entrée</value>
+  </data>
+  <data name="INFOTclient_longest_output_list" xml:space="preserve">
+    <value>Taille maximale d'une liste envoyé</value>
+  </data>
+  <data name="INFOTcluster_enabled" xml:space="preserve">
+    <value>Option Cluster active</value>
+  </data>
+  <data name="INFOTcmdstat_xxx" xml:space="preserve">
+    <value>Détail de la commande "{0}"</value>
+  </data>
+  <data name="INFOTconnected_clients" xml:space="preserve">
+    <value>Nombre de connexions</value>
+  </data>
+  <data name="INFOTconnected_slaves" xml:space="preserve">
+    <value>Nombre d'esclaves connectés</value>
+  </data>
+  <data name="INFOTdbxxx" xml:space="preserve">
+    <value>Détail des clés de la base ID {0}</value>
+  </data>
+  <data name="INFOTevicted_keys" xml:space="preserve">
+    <value>Nom de clés évincées</value>
+  </data>
+  <data name="INFOTexpired_keys" xml:space="preserve">
+    <value>Nombre de clés expirées</value>
+  </data>
+  <data name="INFOTgcc_version" xml:space="preserve">
+    <value>Version du Compilateur</value>
+  </data>
+  <data name="INFOTinstantaneous_ops_per_sec" xml:space="preserve">
+    <value>Nombre de commandes traitées par seconde</value>
+  </data>
+  <data name="INFOTkeyspace_hits" xml:space="preserve">
+    <value>Nombre de recherches avec résultat</value>
+  </data>
+  <data name="INFOTkeyspace_misses" xml:space="preserve">
+    <value>Nombre de recherches sans résultat</value>
+  </data>
+  <data name="INFOTlatest_fork_usec" xml:space="preserve">
+    <value>Durée de lancement du dernier thread</value>
+  </data>
+  <data name="INFOTloading" xml:space="preserve">
+    <value>Chargement de la base en cours</value>
+  </data>
+  <data name="INFOTloading_eta_seconds" xml:space="preserve">
+    <value>Temps restant</value>
+  </data>
+  <data name="INFOTloading_loaded_bytes" xml:space="preserve">
+    <value>Quantité déjà chargée</value>
+  </data>
+  <data name="INFOTloading_loaded_perc" xml:space="preserve">
+    <value>Pourcentage du chargement</value>
+  </data>
+  <data name="INFOTloading_start_time" xml:space="preserve">
+    <value>Heure de début de chargement</value>
+  </data>
+  <data name="INFOTloading_total_bytes" xml:space="preserve">
+    <value>Taille total du fichier chargé</value>
+  </data>
+  <data name="INFOTlru_clock" xml:space="preserve">
+    <value>Horloge LRU</value>
+  </data>
+  <data name="INFOTmaster_host" xml:space="preserve">
+    <value>Adresse du serveur maître</value>
+  </data>
+  <data name="INFOTmaster_last_io_seconds_ago" xml:space="preserve">
+    <value>Délai depuis la dernière opération</value>
+  </data>
+  <data name="INFOTmaster_link_down_since_seconds" xml:space="preserve">
+    <value>Coupure depuis</value>
+  </data>
+  <data name="INFOTmaster_link_status" xml:space="preserve">
+    <value>Etat du lien avec le maître</value>
+  </data>
+  <data name="INFOTmaster_port" xml:space="preserve">
+    <value>Port du serveur maître</value>
+  </data>
+  <data name="INFOTmaster_sync_in_progress" xml:space="preserve">
+    <value>Synchronisation en cours</value>
+  </data>
+  <data name="INFOTmaster_sync_last_io_seconds_ago" xml:space="preserve">
+    <value>Temps depuis la dernier synchronisation</value>
+  </data>
+  <data name="INFOTmaster_sync_left_bytes" xml:space="preserve">
+    <value>Reste à synchroniser</value>
+  </data>
+  <data name="INFOTmem_allocator" xml:space="preserve">
+    <value>Librairie d'allocation mémoire</value>
+  </data>
+  <data name="INFOTmem_fragmentation_ratio" xml:space="preserve">
+    <value>Ratio mémoire système / interne</value>
+  </data>
+  <data name="INFOTmultiplexing_api" xml:space="preserve">
+    <value>API événementielle</value>
+  </data>
+  <data name="INFOTos" xml:space="preserve">
+    <value>Système d'exploitation</value>
+  </data>
+  <data name="INFOTprocess_id" xml:space="preserve">
+    <value>ID de processus</value>
+  </data>
+  <data name="INFOTpubsub_channels" xml:space="preserve">
+    <value>Nombre d'abonnés aux blogs</value>
+  </data>
+  <data name="INFOTpubsub_patterns" xml:space="preserve">
+    <value>Nombre de blogs avec abonnées</value>
+  </data>
+  <data name="INFOTrdb_bgsave_in_progress" xml:space="preserve">
+    <value>Sauvegarde complète en cours</value>
+  </data>
+  <data name="INFOTrdb_changes_since_last_save" xml:space="preserve">
+    <value>Nombre de changements non sauvés</value>
+  </data>
+  <data name="INFOTrdb_current_bgsave_time_sec" xml:space="preserve">
+    <value>Durée de la sauvegarde en cours</value>
+  </data>
+  <data name="INFOTrdb_last_bgsave_status" xml:space="preserve">
+    <value>Statut de la dernière sauvegarde</value>
+  </data>
+  <data name="INFOTrdb_last_bgsave_time_sec" xml:space="preserve">
+    <value>Durée de la dernière sauvegarde</value>
+  </data>
+  <data name="INFOTrdb_last_save_time" xml:space="preserve">
+    <value>Date de la dernière sauvegarde</value>
+  </data>
+  <data name="INFOTredis_git_dirty" xml:space="preserve">
+    <value>GIT Dirty (??)</value>
+  </data>
+  <data name="INFOTredis_git_sha1" xml:space="preserve">
+    <value>Version logiciel</value>
+  </data>
+  <data name="INFOTredis_version" xml:space="preserve">
+    <value>Version du serveur</value>
+  </data>
+  <data name="INFOTrejected_connections" xml:space="preserve">
+    <value>Nombre de connexions rejettées</value>
+  </data>
+  <data name="INFOTrole" xml:space="preserve">
+    <value>Server maître ou esclave</value>
+  </data>
+  <data name="INFOTrun_id" xml:space="preserve">
+    <value>Identifiant unique serveur</value>
+  </data>
+  <data name="INFOTslavexxx" xml:space="preserve">
+    <value>Informations sur l'abonné N°{0}</value>
+    <comment>#0 indice de l'abonné</comment>
+  </data>
+  <data name="INFOTtcp_port" xml:space="preserve">
+    <value>Port d'accès</value>
+  </data>
+  <data name="INFOTtotal_commands_processed" xml:space="preserve">
+    <value>Nombre de commandes traitées</value>
+  </data>
+  <data name="INFOTtotal_connections_received" xml:space="preserve">
+    <value>Nombre de connexion total acceptées par le serveur</value>
+  </data>
+  <data name="INFOTuptime_in_days" xml:space="preserve">
+    <value>Serveur en ligne depuis (en j)</value>
+  </data>
+  <data name="INFOTuptime_in_seconds" xml:space="preserve">
+    <value>Serveur en ligne depuis (en s)</value>
+  </data>
+  <data name="INFOTused_cpu_sys" xml:space="preserve">
+    <value>Temps processeur pour le système</value>
+  </data>
+  <data name="INFOTused_cpu_sys_children" xml:space="preserve">
+    <value>Temps processeur des tâches de fond système</value>
+  </data>
+  <data name="INFOTused_cpu_user" xml:space="preserve">
+    <value>Temps processeur pour les clients</value>
+  </data>
+  <data name="INFOTused_cpu_user_children" xml:space="preserve">
+    <value>Temps processeur des tâches de fond clients</value>
+  </data>
+  <data name="INFOTused_memory" xml:space="preserve">
+    <value>Mémoire interne</value>
+  </data>
+  <data name="INFOTused_memory_human" xml:space="preserve">
+    <value>Mémoire Totale (affichable)</value>
+  </data>
+  <data name="INFOTused_memory_lua" xml:space="preserve">
+    <value>Mémoire du moteur de script</value>
+  </data>
+  <data name="INFOTused_memory_peak" xml:space="preserve">
+    <value>Pic de mémoire</value>
+  </data>
+  <data name="INFOTused_memory_peak_human" xml:space="preserve">
+    <value>Pic de mémoire (affichable)</value>
+  </data>
+  <data name="INFOTused_memory_rss" xml:space="preserve">
+    <value>Mémoire système utilisée</value>
+  </data>
+  <data name="INFOTvm_enabled" xml:space="preserve">
+    <value>Machine virtuelle activée</value>
+  </data>
+  <data name="INFODaof_base_size" xml:space="preserve">
+    <value>Taille du dernier fichier de sauvegarde différentiel obtenu avant le lancement de la sauvegarde différentielle</value>
+  </data>
+  <data name="INFODaof_buffer_length" xml:space="preserve">
+    <value>Taille du fichier de sauvegarde différentielle</value>
+  </data>
+  <data name="INFODaof_current_rewrite_time_sec" xml:space="preserve">
+    <value>Durée écoulé depuis le début de la sauvegarde différentielle en cours</value>
+  </data>
+  <data name="INFODaof_delayed_fsync" xml:space="preserve">
+    <value>Temps écoulé depuis la dernière sauvegarde différentielle</value>
+  </data>
+  <data name="INFODaof_current_size" xml:space="preserve">
+    <value>Taille du fichier de sauvegarde différentielle en cours de création</value>
+  </data>
+  <data name="INFODaof_enabled" xml:space="preserve">
+    <value>La sauvegarde différentielle est activée</value>
+  </data>
+  <data name="INFODaof_last_bgrewrite_status" xml:space="preserve">
+    <value>Indique le statut de la dernière sauvegadre différentielle</value>
+  </data>
+  <data name="INFODaof_last_rewrite_time_sec" xml:space="preserve">
+    <value>Durée de la dernière sauvegarde différentielle</value>
+  </data>
+  <data name="INFODaof_pending_bio_fsync" xml:space="preserve">
+    <value>Nombre de tâches de synchronisations des IO nécéssaire pour la sauvegarde différentielle</value>
+  </data>
+  <data name="INFODaof_pending_rewrite" xml:space="preserve">
+    <value>Une sauvegarde différentielle est planifiée, elle sera lancée à la fin de la sauvegarde complète en cours.</value>
+  </data>
+  <data name="INFODaof_rewrite_buffer_length" xml:space="preserve">
+    <value>Taille du buffer du fichier de réécriture du fichier différentiel</value>
+  </data>
+  <data name="INFODaof_rewrite_in_progress" xml:space="preserve">
+    <value>Une sauvegarde différentielle en cours est en cours d'exécution</value>
+  </data>
+  <data name="INFODaof_rewrite_scheduled" xml:space="preserve">
+    <value>La sauvegarde différentielle en cours fait suite à une sauvegarde complète.</value>
+  </data>
+  <data name="INFODarch_bits" xml:space="preserve">
+    <value>Modèle d'architecture du serveur (32 ou 64 bits)</value>
+  </data>
+  <data name="INFODbg_rewrite_aof_in_progress" xml:space="preserve">
+    <value>Une sauvegarde différentielle d'arrière plan est en cours</value>
+  </data>
+  <data name="INFODblocked_clients" xml:space="preserve">
+    <value>Nombre de connexions clients actuellement bloqués sur le serveur</value>
+  </data>
+  <data name="INFODclient_biggest_input_buf" xml:space="preserve">
+    <value>Taille maximale d'une commande reçue sur le serveur d'un client</value>
+  </data>
+  <data name="INFODclient_longest_output_list" xml:space="preserve">
+    <value>Taille maximale d'un résultat calculé et envoyé à un client par le serveur</value>
+  </data>
+  <data name="INFODcluster_enabled" xml:space="preserve">
+    <value>L'option "cluster" est active</value>
+  </data>
+  <data name="INFODcmdstat_xxx" xml:space="preserve">
+    <value>Détails de la commande "{0}" : Renvoie le nombre d'appels, le temps total consommé et le temps moyen par appel</value>
+    <comment>#0 nom de la commande</comment>
+  </data>
+  <data name="INFODconnected_clients" xml:space="preserve">
+    <value>Nombre de connexions clients actives (La connexion de RedisManagementStudio a été décomptée)</value>
+  </data>
+  <data name="INFODconnected_slaves" xml:space="preserve">
+    <value>Nombre de serveurs abonnés connectés pour la réplication</value>
+  </data>
+  <data name="INFODdbxxx" xml:space="preserve">
+    <value>Détail des clés de la base ID {0} : Nombre total de clés et nombre de clé qui vont expirer.</value>
+    <comment>#0 id de la base</comment>
+  </data>
+  <data name="INFODevicted_keys" xml:space="preserve">
+    <value>Nom de clés évincées due à des limites de mémoires</value>
+  </data>
+  <data name="INFODexpired_keys" xml:space="preserve">
+    <value>Nombre de clés expirées</value>
+  </data>
+  <data name="INFODgcc_version" xml:space="preserve">
+    <value>Version du compilateur utilisé pour le serveur</value>
+  </data>
+  <data name="INFODinstantaneous_ops_per_sec" xml:space="preserve">
+    <value>Nombre de commandes traitées par seconde par le serveur</value>
+  </data>
+  <data name="INFODkeyspace_hits" xml:space="preserve">
+    <value>Nombre de recherches de clés qui ont abouties</value>
+  </data>
+  <data name="INFODkeyspace_misses" xml:space="preserve">
+    <value>Nombre de recherches de clés qui n'ont pas été retrouvées</value>
+  </data>
+  <data name="INFODlatest_fork_usec" xml:space="preserve">
+    <value>Durée de lancement du dernier processus parallèle (si ce temps augemente, cela peux être significatifs d'un problème sur le serveur)</value>
+  </data>
+  <data name="INFODloading" xml:space="preserve">
+    <value>Le chargement de la base en cours</value>
+  </data>
+  <data name="INFODloading_eta_seconds" xml:space="preserve">
+    <value>Temps restant pour finir le chargement de la base de données</value>
+  </data>
+  <data name="INFODloading_loaded_bytes" xml:space="preserve">
+    <value>Nombre de données déjà chargées</value>
+  </data>
+  <data name="INFODloading_loaded_perc" xml:space="preserve">
+    <value>Pourcentage du chargement</value>
+  </data>
+  <data name="INFODloading_start_time" xml:space="preserve">
+    <value>Heure de début du chargement de la base de données</value>
+  </data>
+  <data name="INFODloading_total_bytes" xml:space="preserve">
+    <value>Taille total du fichier chargé</value>
+  </data>
+  <data name="INFODlru_clock" xml:space="preserve">
+    <value>Compteur d'horloge LRU "les moins récement utilisé" mis à jour toutes les minutes</value>
+  </data>
+  <data name="INFODmaster_host" xml:space="preserve">
+    <value>Adresse du serveur maître dans le cas ou le serveur est abonné dans une réplication</value>
+  </data>
+  <data name="INFODmaster_last_io_seconds_ago" xml:space="preserve">
+    <value>Délai d'attente depuis la dernière opération de synchronisation de données dans une réplication</value>
+  </data>
+  <data name="INFODmaster_link_down_since_seconds" xml:space="preserve">
+    <value>Temps passé depuis la coupure de la réplication</value>
+  </data>
+  <data name="INFODmaster_link_status" xml:space="preserve">
+    <value>Etat du lien avec le maître d'une réplication</value>
+  </data>
+  <data name="INFODmaster_port" xml:space="preserve">
+    <value>Port du serveur maître d'une réplication</value>
+  </data>
+  <data name="INFODmaster_sync_in_progress" xml:space="preserve">
+    <value>Synchronisation de réplication en cours</value>
+  </data>
+  <data name="INFODmaster_sync_last_io_second_sago" xml:space="preserve">
+    <value>Temps depuis la dernier synchronisation d'un réplication</value>
+  </data>
+  <data name="INFODmaster_sync_left_bytes" xml:space="preserve">
+    <value>Volume de données restant à synchroniser dans une réplication</value>
+  </data>
+  <data name="INFODmem_allocator" xml:space="preserve">
+    <value>Nom de la Librairie utilisé pour les allocations mémoires du serveur (définie à la compilation du serveur)</value>
+  </data>
+  <data name="INFODmem_fragmentation_ratio" xml:space="preserve">
+    <value>Ratio mémoire système / interne s'il baisse c'est qu'il y a de la fragmentation mémoire sur les données.</value>
+  </data>
+  <data name="INFODmultiplexing_api" xml:space="preserve">
+    <value>API de la boucle événementielle utilisée par le serveur (défini à la compilation du serveur)</value>
+  </data>
+  <data name="INFODos" xml:space="preserve">
+    <value>Système d'exploitation du serveur</value>
+  </data>
+  <data name="INFODprocess_id" xml:space="preserve">
+    <value>ID de processus dans le système d'exploitation</value>
+  </data>
+  <data name="INFODpubsub_channels" xml:space="preserve">
+    <value>Nombre d'abonnés aux blogs</value>
+  </data>
+  <data name="INFODpubsub_patterns" xml:space="preserve">
+    <value>Nombre de blogs avec des abonnées</value>
+  </data>
+  <data name="INFODrdb_bgsave_in_progress" xml:space="preserve">
+    <value>Sauvegarde complète en cours</value>
+  </data>
+  <data name="INFODrdb_changes_since_last_save" xml:space="preserve">
+    <value>Nombre de données qui ont évoluée depuis la dernière sauvegarde</value>
+  </data>
+  <data name="INFODrdb_current_bgsave_time_sec" xml:space="preserve">
+    <value>Durée de la sauvegarde en cours</value>
+  </data>
+  <data name="INFODrdb_last_bgsave_status" xml:space="preserve">
+    <value>Statut de la dernière sauvegarde</value>
+  </data>
+  <data name="INFODrdb_last_bgsave_time_sec" xml:space="preserve">
+    <value>Durée de la dernière sauvegarde</value>
+  </data>
+  <data name="INFODrdb_last_save_time" xml:space="preserve">
+    <value>Date de la dernière sauvegarde</value>
+  </data>
+  <data name="INFODredis_git_dirty" xml:space="preserve">
+    <value>GIT Dirty (??)</value>
+  </data>
+  <data name="INFODredis_git_sha1" xml:space="preserve">
+    <value>Clé de la version des sources du serveur dans GitHub</value>
+  </data>
+  <data name="INFODredis_version" xml:space="preserve">
+    <value>Numéro de version du serveur</value>
+  </data>
+  <data name="INFODrejected_connections" xml:space="preserve">
+    <value>Nombre de connexions rejettées à cause d'un trop grand nombre de connexions en cours.</value>
+  </data>
+  <data name="INFODrole" xml:space="preserve">
+    <value>Indique si le server est le maître ou abonné, dans une réplication</value>
+  </data>
+  <data name="INFODrun_id" xml:space="preserve">
+    <value>Identifiant unique d'exécution du serveur : Utiliser pour identifié le serveur dans ses réplications.</value>
+  </data>
+  <data name="INFODslavexxx" xml:space="preserve">
+    <value>Informations sur l'esclave N°{0} : numéro d'esclave, adresse, port, statut</value>
+    <comment>#0 index de l'esclave</comment>
+  </data>
+  <data name="INFODtcp_port" xml:space="preserve">
+    <value>Port utilisé pour répondre aux clients</value>
+  </data>
+  <data name="INFODtotal_commands_processed" xml:space="preserve">
+    <value>Nombre de commandes traitées</value>
+  </data>
+  <data name="INFODtotal_connections_received" xml:space="preserve">
+    <value>Nombre de connexion total</value>
+  </data>
+  <data name="INFODuptime_in_days" xml:space="preserve">
+    <value>Durée de fonctionnement du serveur en jour</value>
+  </data>
+  <data name="INFODuptime_in_seconds" xml:space="preserve">
+    <value>Durée de fonctionnement du serveur en secondes</value>
+  </data>
+  <data name="INFODused_cpu_sys" xml:space="preserve">
+    <value>Temps processeur consommé pour le système</value>
+  </data>
+  <data name="INFODused_cpu_sys_children" xml:space="preserve">
+    <value>Temps processeur consommé par le tâches de fond système</value>
+  </data>
+  <data name="INFODused_cpu_user" xml:space="preserve">
+    <value>Temps processeur consommé par le serveur pour les clients</value>
+  </data>
+  <data name="INFODused_cpu_user_children" xml:space="preserve">
+    <value>Temps processeur consommé par le serveur pour les tâches de fond nécessaires aux clients</value>
+  </data>
+  <data name="INFODused_memory" xml:space="preserve">
+    <value>Total de mémoire alloué en interne par le serveur</value>
+  </data>
+  <data name="INFODused_memory_human" xml:space="preserve">
+    <value>Total de mémoire alloué en interne par le serveur</value>
+  </data>
+  <data name="INFODused_memory_lua" xml:space="preserve">
+    <value>Total de mémoire alloué par le serveur pour l'interpréteur de script LUA</value>
+  </data>
+  <data name="INFODused_memory_peak" xml:space="preserve">
+    <value>Taille maximale consommée de la mémoire </value>
+  </data>
+  <data name="INFODused_memory_peak_human" xml:space="preserve">
+    <value>Taille maximale consommée de la mémoire </value>
+  </data>
+  <data name="INFODused_memory_rss" xml:space="preserve">
+    <value>Total de mémoire alloué pour le serveur sur le système d'exploitation</value>
+  </data>
+  <data name="INFODvm_enabled" xml:space="preserve">
+    <value>Machine virtuelle activée</value>
+  </data>
+  <data name="OptionNo" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="OptionYes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="Vaof_pending_bio_fsync0" xml:space="preserve">
+    <value>Aucune tâche de synchronisation en cours</value>
+  </data>
+  <data name="Vaof_pending_bio_fsync1" xml:space="preserve">
+    <value>Une seule tâche de synchronisation en cours</value>
+  </data>
+  <data name="Vaof_pending_bio_fsyncN" xml:space="preserve">
+    <value>{0} tâches de synchronisation en cours</value>
+  </data>
+  <data name="Varch_bits" xml:space="preserve">
+    <value>{0} bits</value>
+  </data>
+  <data name="Vbit_count0" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="Vbit_count1" xml:space="preserve">
+    <value>Un seul octet</value>
+  </data>
+  <data name="VBit_countN" xml:space="preserve">
+    <value>{0} octets</value>
+  </data>
+  <data name="Vblocked_clients0" xml:space="preserve">
+    <value>Aucun client bloqué</value>
+  </data>
+  <data name="Vblocked_clients1" xml:space="preserve">
+    <value>Un seul client bloqué</value>
+  </data>
+  <data name="Vblocked_clientsN" xml:space="preserve">
+    <value>{0} clients bloqués</value>
+  </data>
+  <data name="Vchanges_sincelast_save0" xml:space="preserve">
+    <value>Aucun changement</value>
+  </data>
+  <data name="Vchanges_sincelast_save1" xml:space="preserve">
+    <value>Un seul changement</value>
+  </data>
+  <data name="Vchanges_sincelast_saveN" xml:space="preserve">
+    <value>{0} changements</value>
+  </data>
+  <data name="Vconnected_clients0" xml:space="preserve">
+    <value>Aucun client connecté</value>
+  </data>
+  <data name="Vconnected_clients1" xml:space="preserve">
+    <value>Un seul client connecté</value>
+  </data>
+  <data name="Vconnected_clientsN" xml:space="preserve">
+    <value>{0} clients connectés</value>
+  </data>
+  <data name="Vconnected_slaves0" xml:space="preserve">
+    <value>Aucun abonné à la réplication</value>
+  </data>
+  <data name="Vconnected_slaves1" xml:space="preserve">
+    <value>Un seul abonné à la réplication</value>
+  </data>
+  <data name="Vconnected_slavesN" xml:space="preserve">
+    <value>{0} abonnées à la replication</value>
+  </data>
+  <data name="VcpuNone" xml:space="preserve">
+    <value>Aucune consommation processeur</value>
+  </data>
+  <data name="Vlast_bgsave_statusKo" xml:space="preserve">
+    <value>Erreur lors de la Sauvegarde </value>
+  </data>
+  <data name="Vlast_bgsave_statusOk" xml:space="preserve">
+    <value>Sauvegarde Ok </value>
+  </data>
+  <data name="Vmaster_link_statusDown" xml:space="preserve">
+    <value>Déconnect du maître</value>
+  </data>
+  <data name="Vmaster_link_statusUp" xml:space="preserve">
+    <value>Connecté au maître</value>
+  </data>
+  <data name="VroleMaster" xml:space="preserve">
+    <value>Maître de la réplication</value>
+  </data>
+  <data name="VroleSlave" xml:space="preserve">
+    <value>Abonné à une réplication</value>
+  </data>
+  <data name="Vuptime_in_days0" xml:space="preserve">
+    <value>Aujourd'hui</value>
+  </data>
+  <data name="Vuptime_in_days1" xml:space="preserve">
+    <value>un jour</value>
+  </data>
+  <data name="Vuptime_in_daysN" xml:space="preserve">
+    <value>{0} jours</value>
+    <comment>#0 nombre de jours &gt;1</comment>
+  </data>
+  <data name="Vcmdstat" xml:space="preserve">
+    <value>Nombre d'appel : {0}, Temps total : {1} sec, Temps moyen : {2} sec</value>
+  </data>
+  <data name="VcpuN" xml:space="preserve">
+    <value>{0:N2} d'activité</value>
+  </data>
+  <data name="Vdb" xml:space="preserve">
+    <value>Nombre de clés : {0}, Nombre de clés avec une expiration : {1}</value>
+  </data>
+  <data name="Vslave" xml:space="preserve">
+    <value>ID d'abonné : {0}, Adresse : {1}, Port : {2}, Statut : {3}</value>
+  </data>
+  <data name="VslaveStatusDown" xml:space="preserve">
+    <value>Déconnecté du maître</value>
+  </data>
+  <data name="VslaveStatusUp" xml:space="preserve">
+    <value>Connecté au maître</value>
+  </data>
+  <data name="VbitGN" xml:space="preserve">
+    <value>{0:N2} Gigas</value>
+  </data>
+  <data name="VbitKN" xml:space="preserve">
+    <value>{0:N2} Kilos</value>
+  </data>
+  <data name="VbitMN" xml:space="preserve">
+    <value>{0:N2} Mégas</value>
+  </data>
+  <data name="INFODdbsize" xml:space="preserve">
+    <value>Nombre total de clés dans la base de données</value>
+  </data>
+  <data name="INFOTdbsize" xml:space="preserve">
+    <value>Nombre de clés</value>
+  </data>
+  <data name="INFODlastsave" xml:space="preserve">
+    <value>Date de la dernière sauvegarde réussie</value>
+  </data>
+  <data name="INFOTlastsave" xml:space="preserve">
+    <value>Dernière sauvegarde</value>
+  </data>
+  <data name="INFODbgrewriteaof_in_progress" xml:space="preserve">
+    <value>Ecriture du fichier en tâche de fond</value>
+  </data>
+  <data name="INFODbgsave_in_progress" xml:space="preserve">
+    <value>Sauvegarde complète en cours</value>
+  </data>
+  <data name="INFODchanges_since_last_save" xml:space="preserve">
+    <value>Nombre de données qui ont évoluée depuis la dernière sauvegarde</value>
+  </data>
+  <data name="INFODdb_last_save_time" xml:space="preserve">
+    <value>Date de la dernière sauvegarde</value>
+  </data>
+  <data name="INFOTbgrewriteaof_in_progress" xml:space="preserve">
+    <value>Ecriture du fichier en tâche de fond</value>
+  </data>
+  <data name="INFOTbgsave_in_progress" xml:space="preserve">
+    <value>Sauvegarde complète en cours</value>
+  </data>
+  <data name="INFOTchanges_since_last_save" xml:space="preserve">
+    <value>Nombre de changements non sauvés</value>
+  </data>
+  <data name="INFOTdb_last_save_time" xml:space="preserve">
+    <value>Date de la dernière sauvegarde</value>
+  </data>
+  <data name="INFODlast_save_time" xml:space="preserve">
+    <value>Date de la dernière sauvegarde</value>
+  </data>
+  <data name="INFOTlast_save_time" xml:space="preserve">
+    <value>Date de la dernière sauvegarde</value>
+  </data>
+  <data name="CLIENTDaddr" xml:space="preserve">
+    <value>Adresse IP et port du client connecté</value>
+  </data>
+  <data name="CLIENTDage" xml:space="preserve">
+    <value>Temps total de la connexion</value>
+  </data>
+  <data name="CLIENTDcmd" xml:space="preserve">
+    <value>Dernière commande lancé par le client</value>
+  </data>
+  <data name="CLIENTDdb" xml:space="preserve">
+    <value>ID de la base de la connexion</value>
+  </data>
+  <data name="CLIENTDevents" xml:space="preserve">
+    <value>Mode actuel de la soket de connexion</value>
+  </data>
+  <data name="CLIENTDfd" xml:space="preserve">
+    <value>Numéro de soket utilisé par  le client</value>
+  </data>
+  <data name="CLIENTDflags" xml:space="preserve">
+    <value>Propriétés de la connexion</value>
+  </data>
+  <data name="CLIENTDidle" xml:space="preserve">
+    <value>Temps total d'inactivité de la connexion</value>
+  </data>
+  <data name="CLIENTDmulti" xml:space="preserve">
+    <value>Nombre de commandes en cours dans un lot d'instruction MULTI ou EXEC</value>
+  </data>
+  <data name="CLIENTDobl" xml:space="preserve">
+    <value>Taille du tampon de sortie</value>
+  </data>
+  <data name="CLIENTDoll" xml:space="preserve">
+    <value>Taille du tampon de débordement utilisé quand le tampon de sortie est plein</value>
+  </data>
+  <data name="CLIENTDomem" xml:space="preserve">
+    <value>Utilisation du tampon de débordement</value>
+  </data>
+  <data name="CLIENTDpsub" xml:space="preserve">
+    <value>Nombre de patternes qui correspondent aux abonnements aux canneaux de publication</value>
+  </data>
+  <data name="CLIENTDqbuf" xml:space="preserve">
+    <value>Taille du tampon des instructions en cours de traitement (0 si aucune requête en cours)</value>
+  </data>
+  <data name="CLIENTDqbuf_free" xml:space="preserve">
+    <value>Taille de l'espace libre dans le tampon d'instruction. 0si le tampon est plein</value>
+  </data>
+  <data name="CLIENTDsub" xml:space="preserve">
+    <value>Nombre d'abonnements aux cannaux de publications</value>
+  </data>
+  <data name="CLIENTTaddr" xml:space="preserve">
+    <value>Adresse IP</value>
+  </data>
+  <data name="CLIENTTage" xml:space="preserve">
+    <value>Temps de connexion</value>
+  </data>
+  <data name="CLIENTTcmd" xml:space="preserve">
+    <value>Dernière commande</value>
+  </data>
+  <data name="CLIENTTdb" xml:space="preserve">
+    <value>ID de la base</value>
+  </data>
+  <data name="CLIENTTevents" xml:space="preserve">
+    <value>Etat de la connexion</value>
+  </data>
+  <data name="CLIENTTfd" xml:space="preserve">
+    <value>Soket</value>
+  </data>
+  <data name="CLIENTTflags" xml:space="preserve">
+    <value>Propriétés de la connexion</value>
+  </data>
+  <data name="CLIENTTidle" xml:space="preserve">
+    <value>Temps d'inactivité</value>
+  </data>
+  <data name="CLIENTTmulti" xml:space="preserve">
+    <value>Commandes en cours</value>
+  </data>
+  <data name="CLIENTTobl" xml:space="preserve">
+    <value>Tampon de sortie</value>
+  </data>
+  <data name="CLIENTToll" xml:space="preserve">
+    <value>Tampon de débordement</value>
+  </data>
+  <data name="CLIENTTomem" xml:space="preserve">
+    <value>Utilisation du tampon de débordement</value>
+  </data>
+  <data name="CLIENTTpsub" xml:space="preserve">
+    <value>Patternes d'abonnements</value>
+  </data>
+  <data name="CLIENTTqbuf" xml:space="preserve">
+    <value>Tampon d'instruction</value>
+  </data>
+  <data name="CLIENTTqbuf_free" xml:space="preserve">
+    <value>Reste dans le tampon d'instruction</value>
+  </data>
+  <data name="CLIENTTsub" xml:space="preserve">
+    <value>Abonnements</value>
+  </data>
+  <data name="flags_a" xml:space="preserve">
+    <value>La connexion doit être fermée dès que possible</value>
+  </data>
+  <data name="flags_b" xml:space="preserve">
+    <value>La connexion est bloquée par une opération</value>
+  </data>
+  <data name="flags_c" xml:space="preserve">
+    <value>La connexion sera fermé après la fin de la transmission de la réponse </value>
+  </data>
+  <data name="flags_d" xml:space="preserve">
+    <value>Une clé surveillé dans un context EXEC a été modifié. La commande Exec va générer une erreur</value>
+  </data>
+  <data name="flags_i" xml:space="preserve">
+    <value>La connexion est bloquée par une E/S</value>
+  </data>
+  <data name="flags_m" xml:space="preserve">
+    <value>La connexion est sur un maître de réplication</value>
+  </data>
+  <data name="flags_n" xml:space="preserve">
+    <value>Etat normal</value>
+  </data>
+  <data name="flags_o" xml:space="preserve">
+    <value>La connexion est sur un abonné à une réplication et est en mode MONITOR</value>
+  </data>
+  <data name="flags_s" xml:space="preserve">
+    <value>La connexion est sur un abonné à une réplication</value>
+  </data>
+  <data name="flags_u" xml:space="preserve">
+    <value>La connexion est débloquée</value>
+  </data>
+  <data name="flags_x" xml:space="preserve">
+    <value>La connexion est en mode MULTIou EXEC</value>
+  </data>
+  <data name="Vsub0" xml:space="preserve">
+    <value>Aucun abonnement</value>
+  </data>
+  <data name="Vsub1" xml:space="preserve">
+    <value>Un seul abonnement</value>
+  </data>
+  <data name="VsubN" xml:space="preserve">
+    <value>{0} abonnements</value>
+    <comment>#0 Nombre d'abonnemetn ssi &gt;1</comment>
+  </data>
+  <data name="events_r" xml:space="preserve">
+    <value>Socket en attente de lecture</value>
+  </data>
+  <data name="events_w" xml:space="preserve">
+    <value>Socket en attente d'ecriture</value>
+  </data>
+  <data name="Vmulti0" xml:space="preserve">
+    <value>Aucune commande en mode MULTI ou EXEC</value>
+  </data>
+  <data name="Vmulti1" xml:space="preserve">
+    <value>Une seule commande en mode MULTI ou EXEC</value>
+  </data>
+  <data name="VmultiN" xml:space="preserve">
+    <value>{0} commandes en mode MULTI ou EXEC</value>
+  </data>
+  <data name="Vpsub0" xml:space="preserve">
+    <value>Aucune correspondance de pattern</value>
+  </data>
+  <data name="Vpsub1" xml:space="preserve">
+    <value>Une seule correspondance de pattern</value>
+  </data>
+  <data name="VpsubN" xml:space="preserve">
+    <value>{0} correspondances de pattern</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="CONFIGDrepl_ping_slave_period" xml:space="preserve">
+    <value>Fréquence du PING du serveur maître quand le serveur est un abonné</value>
+  </data>
+  <data name="CONFIGTrepl_ping_slave_period" xml:space="preserve">
+    <value>Fréquence du PING en mode abonné</value>
+  </data>
+  <data name="CONFIGDactiverehashing" xml:space="preserve">
+    <value>Active rehashing ???</value>
+  </data>
+  <data name="CONFIGDbind" xml:space="preserve">
+    <value>Bind ??</value>
+  </data>
+  <data name="CONFIGDclient_output_buffer_limit" xml:space="preserve">
+    <value>Taille limite du buffer de sortie client</value>
+  </data>
+  <data name="CONFIGDdaemonize" xml:space="preserve">
+    <value>Le programme serveur est lancé en service</value>
+  </data>
+  <data name="CONFIGDdatabases" xml:space="preserve">
+    <value>Nombre maximal de bases autorisé sur le serveur</value>
+  </data>
+  <data name="CONFIGDhash_max_ziplist_entries" xml:space="preserve">
+    <value>Limite de compression pour les clés de Hash en liste</value>
+  </data>
+  <data name="CONFIGDhash_max_ziplist_value" xml:space="preserve">
+    <value>Limite de compression pour les valeurs de Hash en liste</value>
+  </data>
+  <data name="CONFIGDlogfile" xml:space="preserve">
+    <value>Fichier de log du serveur</value>
+  </data>
+  <data name="CONFIGDlua_time_limit" xml:space="preserve">
+    <value>Temps limite pour les scripts LUA</value>
+  </data>
+  <data name="CONFIGDmaxclients" xml:space="preserve">
+    <value>Nombre maximal de clients admis par le serveur</value>
+  </data>
+  <data name="CONFIGDpidfile" xml:space="preserve">
+    <value>Fichier de verrouillage pour les service Unix</value>
+  </data>
+  <data name="CONFIGDport" xml:space="preserve">
+    <value>Port utilisé pour répondre aux clients</value>
+  </data>
+  <data name="CONFIGDrdbchecksum" xml:space="preserve">
+    <value>Ajoute le Check Sum au backup (Format du RDB si Oui V5 ou plus. si Non V4)</value>
+  </data>
+  <data name="CONFIGDrdbcompression" xml:space="preserve">
+    <value>Compression du backup</value>
+  </data>
+  <data name="CONFIGDrepl_timeout" xml:space="preserve">
+    <value>Temps limite pour la réplication</value>
+  </data>
+  <data name="CONFIGDslaveof" xml:space="preserve">
+    <value>Adresse et port du serveur maître de la réplication</value>
+  </data>
+  <data name="CONFIGDslave_priority" xml:space="preserve">
+    <value>Priorité en tant qu'abonné</value>
+  </data>
+  <data name="CONFIGDslave_read_only" xml:space="preserve">
+    <value>Abonné en lecture seule</value>
+  </data>
+  <data name="CONFIGDstop_writes_on_bgsave_error" xml:space="preserve">
+    <value>Interrompt la sauvegarde différentielle en cas d'erreur</value>
+  </data>
+  <data name="CONFIGDunixsocket" xml:space="preserve">
+    <value>Socket Unix ??</value>
+  </data>
+  <data name="CONFIGDunixsocketperm" xml:space="preserve">
+    <value>Unix socket perm ???</value>
+  </data>
+  <data name="CONFIGDwatchdog_period" xml:space="preserve">
+    <value>Fréquence du watch dog</value>
+  </data>
+  <data name="CONFIGTactiverehashing" xml:space="preserve">
+    <value>Active rehashing ??</value>
+  </data>
+  <data name="CONFIGTbind" xml:space="preserve">
+    <value>Bind ??</value>
+  </data>
+  <data name="CONFIGTclient_output_buffer_limit" xml:space="preserve">
+    <value>Limite du buffer de sortie client</value>
+  </data>
+  <data name="CONFIGTdaemonize" xml:space="preserve">
+    <value>Le serveur est lancé en service</value>
+  </data>
+  <data name="CONFIGTdatabases" xml:space="preserve">
+    <value>Nombre de bases max</value>
+  </data>
+  <data name="CONFIGThash_max_ziplist_entries" xml:space="preserve">
+    <value>Limite de compression pour les clés de Hash en liste</value>
+  </data>
+  <data name="CONFIGThash_max_ziplist_value" xml:space="preserve">
+    <value>Limite de compression pour les valeurs de Hash en liste</value>
+  </data>
+  <data name="CONFIGTlogfile" xml:space="preserve">
+    <value>Fichier de log</value>
+  </data>
+  <data name="CONFIGTlua_time_limit" xml:space="preserve">
+    <value>Temps limite pour les scripts</value>
+  </data>
+  <data name="CONFIGTmaxclients" xml:space="preserve">
+    <value>Nombre maximal de clients admis</value>
+  </data>
+  <data name="CONFIGTpidfile" xml:space="preserve">
+    <value>Fichier PID</value>
+  </data>
+  <data name="CONFIGTport" xml:space="preserve">
+    <value>Port d'accès</value>
+  </data>
+  <data name="CONFIGTrdbchecksum" xml:space="preserve">
+    <value>Ajoute le Check Sum au backup</value>
+  </data>
+  <data name="CONFIGTrdbcompression" xml:space="preserve">
+    <value>Compression du backup</value>
+  </data>
+  <data name="CONFIGTrepl_timeout" xml:space="preserve">
+    <value>Temps limite pour la réplication</value>
+  </data>
+  <data name="CONFIGTslaveof" xml:space="preserve">
+    <value>Informations du maître</value>
+  </data>
+  <data name="CONFIGTslave_priority" xml:space="preserve">
+    <value>Priorité en tant qu'abonné</value>
+  </data>
+  <data name="CONFIGTslave_read_only" xml:space="preserve">
+    <value>Abonné en lecture seule</value>
+  </data>
+  <data name="CONFIGTstop_writes_on_bgsave_error" xml:space="preserve">
+    <value>Interrompt la sauvegarde en cas d'erreur</value>
+  </data>
+  <data name="CONFIGTunixsocket" xml:space="preserve">
+    <value>Socket Unix</value>
+  </data>
+  <data name="CONFIGTunixsocketperm" xml:space="preserve">
+    <value>Unix socket perm ??</value>
+  </data>
+  <data name="CONFIGTwatchdog_period" xml:space="preserve">
+    <value>Fréquence du watch dog</value>
+  </data>
+  <data name="INFODredis_mode" xml:space="preserve">
+    <value>Mode d'exécution du serveur (Autonome ou Sentinel)</value>
+  </data>
+  <data name="INFOTaof_current_rewrite_time_sec" xml:space="preserve">
+    <value>Durée écoulée depuis la sauvegarde différentielle</value>
+  </data>
+  <data name="INFOTaof_last_rewrite_time_sec" xml:space="preserve">
+    <value>Durée de la sauvegarde différentielle</value>
+  </data>
+  <data name="INFOTredis_mode" xml:space="preserve">
+    <value>Mode d'exécution du serveur</value>
+  </data>
+  <data name="VModeAlone" xml:space="preserve">
+    <value>Mode autonome</value>
+  </data>
+  <data name="VModeSentinel" xml:space="preserve">
+    <value>Sentinel</value>
+  </data>
+  <data name="INFODsentinel_masters" xml:space="preserve">
+    <value>Nombre de serveur Maître monitorés</value>
+  </data>
+  <data name="INFOTmasterxxx" xml:space="preserve">
+    <value>Informations sur le maître N°{0}</value>
+    <comment>#0 Id du maitre</comment>
+  </data>
+  <data name="INFODsentinel_running_scripts" xml:space="preserve">
+    <value>Nombre de script en cours exécution sur le serveur</value>
+  </data>
+  <data name="INFODsentinel_scripts_queue_length" xml:space="preserve">
+    <value>Nombre de scripts en attente</value>
+  </data>
+  <data name="INFODsentinel_tilt" xml:space="preserve">
+    <value>Le serveur est en mode "Tilt" ou pas</value>
+  </data>
+  <data name="INFOTsentinel_masters" xml:space="preserve">
+    <value>Nombre de maîtres</value>
+  </data>
+  <data name="INFODmasterxxx" xml:space="preserve">
+    <value>Information sur le Maître N°{0} : La clé d'appel des méthodes, l'état du serveur, l'adresse du serveur</value>
+    <comment>#0 Id du maitre</comment>
+  </data>
+  <data name="INFOTsentinel_running_scripts" xml:space="preserve">
+    <value>Nombre de script en cours</value>
+  </data>
+  <data name="INFOTsentinel_scripts_queue_length" xml:space="preserve">
+    <value>Nombre de scripts en attente</value>
+  </data>
+  <data name="INFOTsentinel_tilt" xml:space="preserve">
+    <value>Mode "Titlt"</value>
+  </data>
+  <data name="Vmaster" xml:space="preserve">
+    <value>Clé serveur = {0}, Etat du serveur = {1}, Adresse IP = {2}</value>
+    <comment>#0 nom de la clé, #1 état, #2 adresse</comment>
+  </data>
+  <data name="VSentinelflagsmaster" xml:space="preserve">
+    <value>Maître</value>
+  </data>
+  <data name="VSentinelnum_other_sentinels0" xml:space="preserve">
+    <value>Aucun autre Sentinel pour ce serveur</value>
+  </data>
+  <data name="VSentinelnum_other_sentinels1" xml:space="preserve">
+    <value>Un seul autre Sentinel pour ce serveur</value>
+  </data>
+  <data name="VSentinelnum_other_sentinelsN" xml:space="preserve">
+    <value>{0} autres Sentinels pour ce serveur</value>
+    <comment>#nombre de serveur sentinel</comment>
+  </data>
+  <data name="VSentinelnum_slaves0" xml:space="preserve">
+    <value>Aucun esclave</value>
+  </data>
+  <data name="VSentinelnum_slaves1" xml:space="preserve">
+    <value>Un seul esclave</value>
+  </data>
+  <data name="VSentinelnum_slavesN" xml:space="preserve">
+    <value>{0} esclaves</value>
+    <comment>#nombre d'esclaves</comment>
+  </data>
+  <data name="VSentinelpending_commands0" xml:space="preserve">
+    <value>Aucune commande en attente</value>
+  </data>
+  <data name="VSentinelpending_commands1" xml:space="preserve">
+    <value>Une seule commande en attente</value>
+  </data>
+  <data name="VSentinelpending_commandsN" xml:space="preserve">
+    <value>{0} commandes en attente</value>
+    <comment>#0 nombre de commandes en attente</comment>
+  </data>
+  <data name="VSentinelquorum0" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="VSentinelquorum1" xml:space="preserve">
+    <value>Un serveur pour prendre une décision</value>
+  </data>
+  <data name="VSentinelquorumN" xml:space="preserve">
+    <value>{0} serveurs pour prendre une descision</value>
+    <comment>#nombre de sentinel</comment>
+  </data>
+  <data name="SENTINEL_SERVERSDflags" xml:space="preserve">
+    <value>Etat du serveur</value>
+  </data>
+  <data name="SENTINEL_SERVERSDinfo_refresh" xml:space="preserve">
+    <value>Délai écoulé depuis la réception correcte d'uen commande INFO</value>
+  </data>
+  <data name="SENTINEL_SERVERSDip" xml:space="preserve">
+    <value>Adresse IP du serveur</value>
+  </data>
+  <data name="SENTINEL_SERVERSDlast_ok_ping_reply" xml:space="preserve">
+    <value>Dernière durée d'exécution d'une commande PING (réussie) sur le serveur</value>
+  </data>
+  <data name="SENTINEL_SERVERSDlast_ping_reply" xml:space="preserve">
+    <value>Délai écoulé depuis la réception correcte d'une commande PING</value>
+  </data>
+  <data name="SENTINEL_SERVERSDname" xml:space="preserve">
+    <value>Nom du serveur</value>
+  </data>
+  <data name="SENTINEL_SERVERSDnum_other_sentinels" xml:space="preserve">
+    <value>Nombre de Sentinel qui monitorent ce serveur</value>
+  </data>
+  <data name="SENTINEL_SERVERSDnum_slaves" xml:space="preserve">
+    <value>Nombre d'esclaves connecté à ce serveur</value>
+  </data>
+  <data name="SENTINEL_SERVERSDpending_commands" xml:space="preserve">
+    <value>Nombre de commande en attente</value>
+  </data>
+  <data name="SENTINEL_SERVERSDport" xml:space="preserve">
+    <value>Port utilisé</value>
+  </data>
+  <data name="SENTINEL_SERVERSDquorum" xml:space="preserve">
+    <value>La déclaration de panne et la procédure de bascule s'enclenche quand le nombre de Sentinels sont d'accord sur la situation du serveur</value>
+  </data>
+  <data name="SENTINEL_SERVERSDrunid" xml:space="preserve">
+    <value>Numéro unique d'identification d'un serveur</value>
+  </data>
+  <data name="SENTINEL_SERVERSTflags" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="SENTINEL_SERVERSTinfo_refresh" xml:space="preserve">
+    <value>Temps depuis le dernier INFO ok</value>
+  </data>
+  <data name="SENTINEL_SERVERSTip" xml:space="preserve">
+    <value>Adresse IP</value>
+  </data>
+  <data name="SENTINEL_SERVERSTlast_ok_ping_reply" xml:space="preserve">
+    <value>Délai du dernier PING ok</value>
+  </data>
+  <data name="SENTINEL_SERVERSTlast_ping_reply" xml:space="preserve">
+    <value>Temps depuis le dernier PING ok</value>
+  </data>
+  <data name="SENTINEL_SERVERSTname" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="SENTINEL_SERVERSTnum_other_sentinels" xml:space="preserve">
+    <value>Nombre de Sentinel</value>
+  </data>
+  <data name="SENTINEL_SERVERSTnum_slaves" xml:space="preserve">
+    <value>Nombre d'esclaves</value>
+  </data>
+  <data name="SENTINEL_SERVERSTpending_commands" xml:space="preserve">
+    <value>Nombre de commande en attente</value>
+  </data>
+  <data name="SENTINEL_SERVERSTport" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="SENTINEL_SERVERSTquorum" xml:space="preserve">
+    <value>Déclaration de panne</value>
+  </data>
+  <data name="SENTINEL_SERVERSTrunid" xml:space="preserve">
+    <value>Numéro d'exécution</value>
+  </data>
+  <data name="SENTINEL_SERVERSDmaster_host" xml:space="preserve">
+    <value>Adresse du maître de la réplication</value>
+  </data>
+  <data name="SENTINEL_SERVERSDmaster_link_down_time" xml:space="preserve">
+    <value>Temps depuis lequel Sentinel n'accède plus au serveur</value>
+  </data>
+  <data name="SENTINEL_SERVERSDmaster_port" xml:space="preserve">
+    <value>Port du maître de la réplication</value>
+  </data>
+  <data name="SENTINEL_SERVERSDslave_priority" xml:space="preserve">
+    <value>Valeur d'ordre de priorité de l'esclave vis à vis du maître</value>
+  </data>
+  <data name="SENTINEL_SERVERSTmaster_host" xml:space="preserve">
+    <value>Adresse du maître</value>
+  </data>
+  <data name="SENTINEL_SERVERSTmaster_link_down_time" xml:space="preserve">
+    <value>Serveur coupé depuis</value>
+  </data>
+  <data name="SENTINEL_SERVERSTmaster_port" xml:space="preserve">
+    <value>Port du maître</value>
+  </data>
+  <data name="SENTINEL_SERVERSTslave_priority" xml:space="preserve">
+    <value>Priorité de l'esclave</value>
+  </data>
+  <data name="VSentinelflagsslave" xml:space="preserve">
+    <value>Esclave</value>
+  </data>
+  <data name="VSentinelmaster_link_statusok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="SENTINEL_SERVERSDmaster_link_status" xml:space="preserve">
+    <value>Etat de la connection entre l'esclave et la maître</value>
+  </data>
+  <data name="SENTINEL_SERVERSTmaster_link_status" xml:space="preserve">
+    <value>Lien avec le maître</value>
+  </data>
+</root>

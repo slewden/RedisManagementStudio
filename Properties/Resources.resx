@@ -1,0 +1,1646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ServerResumeLbl8T" xml:space="preserve">
+    <value>Propriétés du serveur</value>
+  </data>
+  <data name="SentinelServersTitrex" xml:space="preserve">
+    <value>Détail du serveur n°{0}</value>
+    <comment>#0 index du serveur</comment>
+  </data>
+  <data name="KeyGroupColCle" xml:space="preserve">
+    <value>Clé</value>
+  </data>
+  <data name="RedisListInfoUIColValueT" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="PubSubConsoleBtPublishConfirmD1" xml:space="preserve">
+    <value>Message diffusé.
+Un seul client abonné à ce canal</value>
+  </data>
+  <data name="EditTypeZSetColMembre" xml:space="preserve">
+    <value>Membre</value>
+  </data>
+  <data name="KeyExplorerCountListTrim" xml:space="preserve">
+    <value>(seules {0} valeurs affichées)</value>
+    <comment>#nombre de valeur maximum affichées</comment>
+  </data>
+  <data name="ServerResumeBtShutDownOKD" xml:space="preserve">
+    <value>Opération terminée, le serveur est en cours d'arrêt.</value>
+  </data>
+  <data name="FAddKeyT" xml:space="preserve">
+    <value>Ajout d'une clé</value>
+  </data>
+  <data name="ConfigEditUIBtEditT" xml:space="preserve">
+    <value>Configurer</value>
+  </data>
+  <data name="EditTypeHashBtDeleteConfirmT" xml:space="preserve">
+    <value>Confirmez la suppression</value>
+  </data>
+  <data name="KeySearchResultCountSimple1" xml:space="preserve">
+    <value>1 clé trouvée</value>
+  </data>
+  <data name="EditTypeListCbNewActionEdit" xml:space="preserve">
+    <value>Modifier sélection</value>
+  </data>
+  <data name="KeyExplorerBtSizeOfDN" xml:space="preserve">
+    <value>Calculer la taille de l'ensemble des clés sélectionnées</value>
+  </data>
+  <data name="KeySearchDisplayModeNone" xml:space="preserve">
+    <value>Aucun regrouppement</value>
+  </data>
+  <data name="EditTypeHashBtSearchMessageT" xml:space="preserve">
+    <value>Recherche de membre</value>
+  </data>
+  <data name="PubSubConsoleColPatternT" xml:space="preserve">
+    <value>Pattern</value>
+  </data>
+  <data name="FManagementImportErrT" xml:space="preserve">
+    <value>Erreur de chargement</value>
+  </data>
+  <data name="AlarmTypeBoolControl" xml:space="preserve">
+    <value>Contrôle Oui/Non</value>
+  </data>
+  <data name="KeyExplorerBtSizeOfConfirmD0" xml:space="preserve">
+    <value>La taille est vide !!?</value>
+  </data>
+  <data name="ServerResumeBtFlushConfirm1D" xml:space="preserve">
+    <value>Etes vous certain de vouloir effacer toutes les données de cette base ?
+
+Cette opération est irréversible. Vous allez perdre toutes les données !!
+
+Veuillez confirmez la suppression ?</value>
+  </data>
+  <data name="FManageInfosBtBottom" xml:space="preserve">
+    <value>Dernier</value>
+  </data>
+  <data name="ServerResumeBtFlushAllConfirm1D" xml:space="preserve">
+    <value>Etes vous certain de vouloir effacer toutes les données de TOUTES les bases du serveur ?
+
+Cette opération est irréversible. Vous allez perdre toutes les données du serveur !!
+
+Veuillez confirmez la supression de TOUTES les bases du serveur ?</value>
+  </data>
+  <data name="SentinelServersTitre" xml:space="preserve">
+    <value>Liste des serveurs suivis</value>
+  </data>
+  <data name="FimportExportOpenFileTImport" xml:space="preserve">
+    <value>Fichier d'import</value>
+  </data>
+  <data name="ActionsCommandLblInfoCountN" xml:space="preserve">
+    <value>Il y a actuellement {0} commandes lentes identifiées</value>
+    <comment>#0 nombre de commandes lentes ssi &gt;1</comment>
+  </data>
+  <data name="ActionsReplicationBtSlaveOfNoneT" xml:space="preserve">
+    <value>Stopper l'abonnement</value>
+  </data>
+  <data name="RedisClientUILblDetailTx" xml:space="preserve">
+    <value>Détail du client n°{0}</value>
+    <comment>#0 index du client dans la liste</comment>
+  </data>
+  <data name="KeyExplorerBtSizeOfConfirmDNN" xml:space="preserve">
+    <value>La taille totale des {1} clés est de {0}</value>
+    <comment>#0 nombre d'octets formattés, #1nombre de clé ssi &gt;1</comment>
+  </data>
+  <data name="EditTypeTextCbTypeAffichageFLags" xml:space="preserve">
+    <value>Champ de bit</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Defillement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Defillement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTypeZSetBtDeleteD" xml:space="preserve">
+    <value>Supprimer le membre affiché</value>
+  </data>
+  <data name="MonitorConsoleBtSaveD" xml:space="preserve">
+    <value>Enregistrer l'intégralité de la trace</value>
+  </data>
+  <data name="ActionsCommandFileEntete" xml:space="preserve">
+    <value>Index{0}Date{0}Durée{0}Commande</value>
+    <comment>#0 le séparateur de colonne</comment>
+  </data>
+  <data name="EditTypeCheckIndexOrderMin" xml:space="preserve">
+    <value>La valeur doit être inférieure au max</value>
+  </data>
+  <data name="KeyExplorerLbl4T" xml:space="preserve">
+    <value>Explorateur de clés : Détail d'une clé</value>
+  </data>
+  <data name="EditTypeCheckIndexInterval" xml:space="preserve">
+    <value>L'interval est trop large ({0} valeurs au maximum)</value>
+    <comment>#0 nombre de valeurs dans l'interval</comment>
+  </data>
+  <data name="ActionsPersistanceBtRewriteAOFD" xml:space="preserve">
+    <value>Lancer une sauvegarde différentielle en tâche de fond</value>
+  </data>
+  <data name="RedisClientUIBtKillD" xml:space="preserve">
+    <value>Stopper la connexion du client</value>
+  </data>
+  <data name="EditTypeZSetColScore" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="AlarmStatusAlarmRed" xml:space="preserve">
+    <value>Problème en cours</value>
+  </data>
+  <data name="AlarmTypeCounterDown" xml:space="preserve">
+    <value>Suivi de la descente du compteur</value>
+  </data>
+  <data name="PubSubConsoleLblTitreT" xml:space="preserve">
+    <value>Messagerie : Diffusion / Abonnement</value>
+  </data>
+  <data name="Redis32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Redis 32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MonitorConsoleTraceFileEntete" xml:space="preserve">
+    <value>Date{0}Adresse IP{0}Commande</value>
+    <comment>#0 séparateur des colonnes (;)</comment>
+  </data>
+  <data name="EditTypeListTxtIndexMinD" xml:space="preserve">
+    <value>Index minimum à afficher</value>
+  </data>
+  <data name="MonitorConsoleColCommand" xml:space="preserve">
+    <value>Commande</value>
+  </data>
+  <data name="BtOkT" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="FAddKeyChkPlayAgainT" xml:space="preserve">
+    <value>Ajouter d'autres clés</value>
+  </data>
+  <data name="ActionsReplicationTxtPortT0" xml:space="preserve">
+    <value>6379</value>
+  </data>
+  <data name="MemoryCPULight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MemoryCPULight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeyGroupCountCle0" xml:space="preserve">
+    <value>Aucune clé</value>
+  </data>
+  <data name="EditTypeTextColCle" xml:space="preserve">
+    <value>Clé</value>
+  </data>
+  <data name="EditTypeListCbNewActionInsertAfter" xml:space="preserve">
+    <value>Insérer après sélection</value>
+  </data>
+  <data name="EditTypeZSetBtRefresh" xml:space="preserve">
+    <value>Actualiser la liste</value>
+  </data>
+  <data name="BtPremier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\112_ArrowCurve_Blue_Right_16x16_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActionsReplicationLbl4T" xml:space="preserve">
+    <value>Esclave</value>
+  </data>
+  <data name="ActionsReplicationLblCountSlavesN" xml:space="preserve">
+    <value>{0} esclaves</value>
+    <comment>#0 nombre d'esclave ssi &gt;1</comment>
+  </data>
+  <data name="SentinelServerSuivisListInfoToStringM" xml:space="preserve">
+    <value>Serveur n°{0} : {1}</value>
+    <comment>#0 index du serveur, #1 nom de la connexion</comment>
+  </data>
+  <data name="Erase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Erase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlarmStatusUIBtEditT" xml:space="preserve">
+    <value>Configurer</value>
+  </data>
+  <data name="KeyExplorerBtCancelD" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="ErrorEditorsWithoutConnection" xml:space="preserve">
+    <value>La connexion n'a pas été définie</value>
+  </data>
+  <data name="ClientLight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClientLight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeyGroupTitreT" xml:space="preserve">
+    <value>Explorateur de clés : Groupe de clés</value>
+  </data>
+  <data name="FAddKeyErrorType" xml:space="preserve">
+    <value>If faut sélectionner un type de clé</value>
+  </data>
+  <data name="ServerResumeBtShowBaseT" xml:space="preserve">
+    <value>Autres bases existantes sur le serveur...</value>
+  </data>
+  <data name="RedisClientUIlblInfoDescriptionCaptionT" xml:space="preserve">
+    <value>Description :</value>
+  </data>
+  <data name="ServerResumeLbl7T" xml:space="preserve">
+    <value>Nombre de clés :</value>
+  </data>
+  <data name="RedisClientUICountClient0" xml:space="preserve">
+    <value>Aucun client connecté</value>
+  </data>
+  <data name="FManagementBtConnectT" xml:space="preserve">
+    <value>Connexion à la base...</value>
+  </data>
+  <data name="FManagementBtConnectErrD" xml:space="preserve">
+    <value>Le serveur ne répond pas</value>
+  </data>
+  <data name="PubSubConsoleLblTitreAbonnement" xml:space="preserve">
+    <value>Messagerie : Abonnement</value>
+  </data>
+  <data name="EditTypeTextColValue" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="EditTypeZSetTxtIndexMaxD" xml:space="preserve">
+    <value>Index maximum à afficher</value>
+  </data>
+  <data name="ServerResumeLbl10T" xml:space="preserve">
+    <value>Mode :</value>
+  </data>
+  <data name="AlarmStatusUIBtCancelD" xml:space="preserve">
+    <value>Annuler l'édition</value>
+  </data>
+  <data name="MonitorConsoleColAdresse" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="EditTypeSetBtDeleteConfirmD" xml:space="preserve">
+    <value>Etes vous certain de vouloir supprimer cette valeur ?
+
+L'opération est irréversible.</value>
+  </data>
+  <data name="KeyExplorerCountListWith1Value" xml:space="preserve">
+    <value>avec une seule valeur</value>
+  </data>
+  <data name="FFolderLbl3T" xml:space="preserve">
+    <value>Description :</value>
+  </data>
+  <data name="EditTypeTextLbl1T" xml:space="preserve">
+    <value>Affichage :</value>
+  </data>
+  <data name="ActionsReplicationTxtPortD" xml:space="preserve">
+    <value>ActionsReplicationTxtAdresseD</value>
+  </data>
+  <data name="KeyExplorerLbl2T" xml:space="preserve">
+    <value>Type de clé :</value>
+  </data>
+  <data name="ConnectionFolderLoadError" xml:space="preserve">
+    <value>Noeud 'Folder' non trouvé à la racinde du fichier XML</value>
+  </data>
+  <data name="KeySearchResultCountSimpleN" xml:space="preserve">
+    <value>{0} clés trouvées</value>
+    <comment>#0 nombre de clé trouvées dans une recherche ssi&gt;1</comment>
+  </data>
+  <data name="RedisListInfoUIColPropertyT" xml:space="preserve">
+    <value>Propriété</value>
+  </data>
+  <data name="ActionsCommandLblInfoCount1" xml:space="preserve">
+    <value>Il y a actuellement une seule commande lente identifiée</value>
+  </data>
+  <data name="FAddKeyCountAddN" xml:space="preserve">
+    <value>{0} clés ajoutés</value>
+    <comment>#0 nombre de clé ajoutées dans la base</comment>
+  </data>
+  <data name="KeySearchChkMelangeType" xml:space="preserve">
+    <value>Autoriser le regroupement de clé de types différents</value>
+  </data>
+  <data name="EditTypeZSetBtDeleteConfirmT" xml:space="preserve">
+    <value>Confirmez la suppression</value>
+  </data>
+  <data name="EditTypeSetBtSearchMessageT" xml:space="preserve">
+    <value>Recherche dans une liste</value>
+  </data>
+  <data name="ActionsReplicationLbl3T" xml:space="preserve">
+    <value>Actuellement :</value>
+  </data>
+  <data name="Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\112_RefreshArrow_Green_16x16_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActionsCommandFileError0T" xml:space="preserve">
+    <value>Commandes les plus lentes</value>
+  </data>
+  <data name="EditTypeSetBtDeleteConfirmT" xml:space="preserve">
+    <value>Confirmez la suppression</value>
+  </data>
+  <data name="Stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeySearchResultCount1" xml:space="preserve">
+    <value>Une seule clé {0}pour le texte : {1}</value>
+    <comment>#0 type de clé (avec espace en fin ou vide), #1 mot cherché</comment>
+  </data>
+  <data name="ActionsCommandBtResetErrorT" xml:space="preserve">
+    <value>Erreur lors de l'effacement</value>
+  </data>
+  <data name="KeyExplorerlblDetailTKey" xml:space="preserve">
+    <value>Détail de la clé :</value>
+  </data>
+  <data name="FimportExportOpenFileTExport" xml:space="preserve">
+    <value>Fichier d'export</value>
+  </data>
+  <data name="EditTypeZSetBtDecrD" xml:space="preserve">
+    <value>Décrémenter de 1 le score du membre affiché</value>
+  </data>
+  <data name="Configuration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Configuration.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActionsPersistanceBtSaveT" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="ActionsReplicationLblMasterAdresseNone" xml:space="preserve">
+    <value>???</value>
+  </data>
+  <data name="ServerResumeBtFlushAllConfirmT" xml:space="preserve">
+    <value>Effacer les données du serveur</value>
+  </data>
+  <data name="EditTypeTextTxtIncremD" xml:space="preserve">
+    <value>Valeur de l'incrémentation</value>
+  </data>
+  <data name="KeyGroupCountCleN" xml:space="preserve">
+    <value>{0} clés</value>
+    <comment>#0 nombre de clés</comment>
+  </data>
+  <data name="Folder32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder32.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConfigEditUIBtSaveD" xml:space="preserve">
+    <value>Enregistrer la configuration</value>
+  </data>
+  <data name="ServerResumeBtFlushAllDBT" xml:space="preserve">
+    <value>Effacer toutes les bases...</value>
+  </data>
+  <data name="KeySearchLbl1T" xml:space="preserve">
+    <value>Recherche :</value>
+  </data>
+  <data name="EditTypeTextFillWrongFormatNumber" xml:space="preserve">
+    <value>Le texte ne semble pas être un nombre</value>
+  </data>
+  <data name="SentinelServersCount0" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="ActionsCommandLblInfoCount0" xml:space="preserve">
+    <value>Il n'y a pas commande lente identifiée</value>
+  </data>
+  <data name="PubSubConsoleLbl1T" xml:space="preserve">
+    <value>Diffusion d'un message sur un canal Redis</value>
+  </data>
+  <data name="PubSubConsoleBtStopD2" xml:space="preserve">
+    <value>Stopper l'abonnement aux canaux {0}</value>
+    <comment>#0 nom du pattern</comment>
+  </data>
+  <data name="FManageInfosBtClasseUnKnow" xml:space="preserve">
+    <value>Inconnus</value>
+  </data>
+  <data name="EditTypeHashLbl2T" xml:space="preserve">
+    <value>La clé existe-t-elle ? :</value>
+  </data>
+  <data name="ServerResumeLbl3T" xml:space="preserve">
+    <value>Port :</value>
+  </data>
+  <data name="AlarmStatusUIBtSaveD" xml:space="preserve">
+    <value>Enregistrer les modifications</value>
+  </data>
+  <data name="ActionsReplicationLbl7T" xml:space="preserve">
+    <value>Nouveau maître :</value>
+  </data>
+  <data name="ServerResumeBtShutDownConfirm1D" xml:space="preserve">
+    <value>Etes vous certain de vouloir arrêter le serveur ?
+
+Cette opération n'est pas réversesible, vous devrez relancer le serveur manuellement.
+
+Etes vous d'accord pour arrêter le serveur ?</value>
+  </data>
+  <data name="ServerResumeBtFlushAllConfirm3D" xml:space="preserve">
+    <value>Il ne faut pas effacer toutes les données de TOUTES les bases du serveur.
+
+Veuillez confirmez de nouveau la suppression ?</value>
+  </data>
+  <data name="ActionsStatistiquesBtConfigResetErreur" xml:space="preserve">
+    <value>Erreur lors de la renitialisation des statistiques :
+
+{0}</value>
+    <comment>#0 Message d'erreur</comment>
+  </data>
+  <data name="RedisListInfoUIBtRefreshD" xml:space="preserve">
+    <value>Actualiser les informations</value>
+  </data>
+  <data name="ActionsPersistanceBtSaveD" xml:space="preserve">
+    <value>Lancer une sauvegarde synchrone sur le serveur</value>
+  </data>
+  <data name="KeyExplorerTTLFormatSeconds" xml:space="preserve">
+    <value>Secondes</value>
+  </data>
+  <data name="KeyExplorerBtDelKeyConfirmD" xml:space="preserve">
+    <value>Etes vous certain de vouloir supprimer cette clé, l'opération est irréversible?</value>
+  </data>
+  <data name="Pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServerResumeBtShowActionT" xml:space="preserve">
+    <value>Afficher les actions étendues</value>
+  </data>
+  <data name="FManagementBtDelConfirmT" xml:space="preserve">
+    <value>Confirmez la suppression</value>
+  </data>
+  <data name="FRedisUtilLbl1T" xml:space="preserve">
+    <value>Connexion :</value>
+  </data>
+  <data name="FConnexionLbl1T" xml:space="preserve">
+    <value>Connexion à une base d'un serveur Redis.</value>
+  </data>
+  <data name="EditTypeZSetLblEditionTEdit" xml:space="preserve">
+    <value>Modifier :</value>
+  </data>
+  <data name="FRedisUtilLbl4T" xml:space="preserve">
+    <value>Base :</value>
+  </data>
+  <data name="KeySearchErrorBadFilter" xml:space="preserve">
+    <value>Le filtre positionné est trop faible par rapport aux {0} clés dans la base</value>
+    <comment>#0 nombre de clés dans la base</comment>
+  </data>
+  <data name="MonitorConsoleColBaseId" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="MonitorConsoleBtStartD" xml:space="preserve">
+    <value>Démarrer une nouvelle trace</value>
+  </data>
+  <data name="AlarmStatusUIBtDelD" xml:space="preserve">
+    <value>Supprimer cette alerte</value>
+  </data>
+  <data name="FAddKeyLbl1T" xml:space="preserve">
+    <value>Type :</value>
+  </data>
+  <data name="FManageInfosFillCount1" xml:space="preserve">
+    <value>Une seule information</value>
+  </data>
+  <data name="KeyExplorerTTLFormatMinutes" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="ActionsStatistiquesBtConfigResetT" xml:space="preserve">
+    <value>Reinitialiser les statistiques...</value>
+  </data>
+  <data name="RedisClientUIStopConnexionConfirmD" xml:space="preserve">
+    <value>Etes vous certain de vouloir couper la connexion du client ?</value>
+  </data>
+  <data name="Increment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\increment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeySearchDisplayModePonctuation" xml:space="preserve">
+    <value>Ponctuation : Les clés sont regroupées par groupe de lettres séparés par un caractère de ponctuation qui peut être {0}</value>
+    <comment>#0 liste des caractères de ponctuation pris en compte</comment>
+  </data>
+  <data name="FImportExportBtOkConfirmTImport" xml:space="preserve">
+    <value>Rapport d'import</value>
+  </data>
+  <data name="EditTypeZSetBtIncrD" xml:space="preserve">
+    <value>Incrémenter de 1 le score du membre affiché</value>
+  </data>
+  <data name="ServerResumeLbl2T" xml:space="preserve">
+    <value>Adresse :</value>
+  </data>
+  <data name="ActionsReplicationLblMasterDetailT0" xml:space="preserve">
+    <value>Maître : localhost:6379</value>
+  </data>
+  <data name="FManagementMnuDelT" xml:space="preserve">
+    <value>Supprimer...</value>
+  </data>
+  <data name="AlarmBoolUIlblFalseOption" xml:space="preserve">
+    <value>Quand la valeur est à Non afficher :</value>
+  </data>
+  <data name="ServerResumeBtFlushAllConfirm2D" xml:space="preserve">
+    <value>Vous ne devriez pas effacer toutes les données de TOUTES les bases.
+
+Cette opération est irréversible. On vous aura prévenu !!!
+
+Voulez vous annuler l'opération ?</value>
+  </data>
+  <data name="RedisInfoUILblDescriptionCaptionT" xml:space="preserve">
+    <value>Description :</value>
+  </data>
+  <data name="FImportExportLblFileT" xml:space="preserve">
+    <value>Fichier :</value>
+  </data>
+  <data name="TousTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TousTypes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServerResumeColBase" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="SentinelServersCount1" xml:space="preserve">
+    <value>Un serveur</value>
+  </data>
+  <data name="KeyExplorerBtDelKeyD" xml:space="preserve">
+    <value>Supprimer la clé sélectionnée</value>
+  </data>
+  <data name="FRedisUtilLbl5T" xml:space="preserve">
+    <value>Description :</value>
+  </data>
+  <data name="MonitorConsoleTRACEPAUSE" xml:space="preserve">
+    <value>TRACE PAUSE</value>
+  </data>
+  <data name="EditTypeCheckIndexMinError" xml:space="preserve">
+    <value>Valeur invalide</value>
+  </data>
+  <data name="RedisInfoUILblCleCaptionT" xml:space="preserve">
+    <value>Clé :</value>
+  </data>
+  <data name="FConnexionLbl2T" xml:space="preserve">
+    <value>Nom de la connexion :</value>
+  </data>
+  <data name="PubSubConsoleBtStartD2" xml:space="preserve">
+    <value>Démarrer un abonnement aux canaux {0}</value>
+    <comment>#0 nom du pattern</comment>
+  </data>
+  <data name="FImportExportBtOkConfirmDOkExport" xml:space="preserve">
+    <value>Export réalisé avec succès</value>
+  </data>
+  <data name="EditTypeZSetLblEditionTAdd" xml:space="preserve">
+    <value>Ajouter :</value>
+  </data>
+  <data name="CommandLight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CommandLight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FManagementBtConnectErrT" xml:space="preserve">
+    <value>Impossible de contacter le serveur</value>
+  </data>
+  <data name="FManageInfosLbl1T" xml:space="preserve">
+    <value>Rubrique :</value>
+  </data>
+  <data name="KeyGroupCountCle1" xml:space="preserve">
+    <value>Une seule clé</value>
+  </data>
+  <data name="FimportExportTImport" xml:space="preserve">
+    <value>Importer des connexions</value>
+  </data>
+  <data name="FManagementMnuImportT" xml:space="preserve">
+    <value>Importer...</value>
+  </data>
+  <data name="EditTypeSetColValue" xml:space="preserve">
+    <value>Valeurs</value>
+  </data>
+  <data name="ConfigEditUIBtCancelD" xml:space="preserve">
+    <value>Annuler l'édition</value>
+  </data>
+  <data name="saveSelection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saveSelection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTypeListColValueT" xml:space="preserve">
+    <value>Valeurs</value>
+  </data>
+  <data name="BitDisplayBitOff" xml:space="preserve">
+    <value>Effacé</value>
+  </data>
+  <data name="EditTypeZSetLblEditionDEdit" xml:space="preserve">
+    <value>Enregistrer la modification du membre et du score</value>
+  </data>
+  <data name="KeySearchResultCountN" xml:space="preserve">
+    <value>{0} clés {1}trouvées pour le texte : {2}</value>
+    <comment>#0 nombre de clé, #1 type de clé (avec espace en fin ou vide), #2 mot cherché</comment>
+  </data>
+  <data name="KeyGroupColType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="RedisClientUIColPropertieT" xml:space="preserve">
+    <value>Propriété</value>
+  </data>
+  <data name="KeyExplorerBtSizeOfD1" xml:space="preserve">
+    <value>Calculer la taille de la clé sélectionnée</value>
+  </data>
+  <data name="FConnexionLbl8T" xml:space="preserve">
+    <value>Description :</value>
+  </data>
+  <data name="FManagementBtDelConfirmDGroupe" xml:space="preserve">
+    <value>Etes vous certain de vouloir supprimer le groupe de connexion '{0}'? 
+Tous les sous-groupes et connexions associés seront supprimés en même temps.</value>
+    <comment>#0 nom du groupe à supprimer</comment>
+  </data>
+  <data name="FRedisUtilLbl6T" xml:space="preserve">
+    <value>Version :</value>
+  </data>
+  <data name="FFolderLbl1T" xml:space="preserve">
+    <value>Spécifier le nom et la description du groupe de connexions. Le groupe de connexion peut être stocké à la racine ou en tant que sous-groupe d'un autre groupe de connexions.</value>
+  </data>
+  <data name="PubSubConsoleBtStartD" xml:space="preserve">
+    <value>Démarrer un abonnement au canal {0}</value>
+    <comment>#0 nom du canal</comment>
+  </data>
+  <data name="PubSubConsoleColActionT" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="RedisClientListTranslatorToString" xml:space="preserve">
+    <value>Client N°{0} : {1} - Base N°{2}</value>
+    <comment>#0 index, #1 Adresse IP, #2 connected base</comment>
+  </data>
+  <data name="FManageInfosFillCount0" xml:space="preserve">
+    <value>Aucune information</value>
+  </data>
+  <data name="ServerResumeBtFlushResultOkD" xml:space="preserve">
+    <value>Opération terminée avec succès la base est vide.</value>
+  </data>
+  <data name="MonitorConsoleTraceDateFormat" xml:space="preserve">
+    <value>dd/MM/yyyy HH:mm:ss.fff</value>
+  </data>
+  <data name="FConnexionT" xml:space="preserve">
+    <value>Connexion</value>
+  </data>
+  <data name="ActionsCommandBtResetT" xml:space="preserve">
+    <value>Vider la liste...</value>
+  </data>
+  <data name="MonitorConsoleChkScrollOn" xml:space="preserve">
+    <value>Défilement automatique des commandes activé</value>
+  </data>
+  <data name="EditTypeHashColValueT" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="AlarmTypeCounterUp" xml:space="preserve">
+    <value>Suivi de la montée du compteur</value>
+  </data>
+  <data name="ActionsReplicationLbl1T" xml:space="preserve">
+    <value>Actuellement :</value>
+  </data>
+  <data name="ServerResumeLbl9T" xml:space="preserve">
+    <value>Le mode Sentinel indique que le serveur est la pour monitorer les différents serveurs Redis du réseau. Dans ce mode, le serveur n'est pas disponible pour stocker des données.</value>
+  </data>
+  <data name="EditTypeListTxtIndexMaxD" xml:space="preserve">
+    <value>Index maximum à afficher</value>
+  </data>
+  <data name="ServerResumeLbl4T" xml:space="preserve">
+    <value>Description :</value>
+  </data>
+  <data name="EditTypeTextBtDecremT" xml:space="preserve">
+    <value>Décrémenter de</value>
+  </data>
+  <data name="UnPinnedToolsTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UnPinnedToolsTitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlarmGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlarmVerte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeySearchLbl2T" xml:space="preserve">
+    <value>Type d'indentation du résultat</value>
+  </data>
+  <data name="EditTypeZSetLbl3T" xml:space="preserve">
+    <value>Sélection :</value>
+  </data>
+  <data name="StatisticsLight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StatisticsLight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FAddKeyErrorValue1" xml:space="preserve">
+    <value>Il faut une valeur</value>
+  </data>
+  <data name="KeyExplorerCountListWithoutValue" xml:space="preserve">
+    <value>sans aucune valeur</value>
+  </data>
+  <data name="AlarmCounterUIlblIcone1" xml:space="preserve">
+    <value>afficher</value>
+  </data>
+  <data name="EditTypeListCbNewActionAdd" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="FManagementLblTitreT" xml:space="preserve">
+    <value>Redis Managment studio : Explorateur de serveurs Redis</value>
+  </data>
+  <data name="FManageInfosBtNotClassed" xml:space="preserve">
+    <value>Non classé</value>
+  </data>
+  <data name="EditTypeZSetBtDeleteConfirmD" xml:space="preserve">
+    <value>Etes vous certain de vouloir supprimer ce membre ?
+
+L'opération est irréversible.</value>
+  </data>
+  <data name="RedisClientUIStopConnexionError" xml:space="preserve">
+    <value>Erreur d'excution : Commande non aboutie !</value>
+  </data>
+  <data name="ActionsCommandBtResetD" xml:space="preserve">
+    <value>Reinitialise la liste des commandes les plus lentes</value>
+  </data>
+  <data name="EditTypeListBtRefresh" xml:space="preserve">
+    <value>Actualiser la liste</value>
+  </data>
+  <data name="Pinned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pinned.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FManagementLblTipsT" xml:space="preserve">
+    <value>Sélectionnez un serveur ou définissez une nouvelle connection</value>
+  </data>
+  <data name="EditTypeTextBtDecremD" xml:space="preserve">
+    <value>Décrémenter la valeur de {0}</value>
+    <comment>#0 valeur de la décrémentation</comment>
+  </data>
+  <data name="ActionsPersistanceBtBgSaveT" xml:space="preserve">
+    <value>Sauvegarde asynchrone</value>
+  </data>
+  <data name="EditTypeTextBtIncrD" xml:space="preserve">
+    <value>Incrémenter la valeur de {0}</value>
+    <comment>#0 valeur de l'incrémentation</comment>
+  </data>
+  <data name="BtCancelT" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="FManageInfosColTitre" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="ActionsPersistanceBtRewriteAOFT" xml:space="preserve">
+    <value>Sauvegarde des évolutions</value>
+  </data>
+  <data name="EditTypeTextTxtDecremD" xml:space="preserve">
+    <value>Valeur de la décrémentation</value>
+  </data>
+  <data name="ActionsReplicationLbl5T" xml:space="preserve">
+    <value>Maître</value>
+  </data>
+  <data name="EditTypeTextFillWrongFormatJSon" xml:space="preserve">
+    <value>Le texte ne semble pas représenter un objet JSon Sérialisé</value>
+  </data>
+  <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeyExplorerBtClearTTLD" xml:space="preserve">
+    <value>Durée de vie infinie = Effacer la durée de vie</value>
+  </data>
+  <data name="ActionsCommandBtShowT" xml:space="preserve">
+    <value>Voir en détail...</value>
+  </data>
+  <data name="AlarmStatusAlarmGreen" xml:space="preserve">
+    <value>Valeur normale</value>
+  </data>
+  <data name="EditTypeSetBtSearchMessageOkD" xml:space="preserve">
+    <value>{0} fait partie des données de la clé {1}</value>
+    <comment>#0 Mot cherché, #1 clé en cours d'affichage</comment>
+  </data>
+  <data name="EditTypeHashLblEditionTAdd" xml:space="preserve">
+    <value>Ajouter :</value>
+  </data>
+  <data name="PubSubConsoleTxtPubChanelD" xml:space="preserve">
+    <value>Nom du canal ou diffuser le message (accepte les *)</value>
+  </data>
+  <data name="FConnexionLbl4T" xml:space="preserve">
+    <value>Port :</value>
+  </data>
+  <data name="Cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SentinelServersColPropertyT" xml:space="preserve">
+    <value>Propriété</value>
+  </data>
+  <data name="FConnexionLbl7T" xml:space="preserve">
+    <value>Couleur :</value>
+  </data>
+  <data name="KeyExplorerlblDetailTN" xml:space="preserve">
+    <value>Groupe de clés du type {0} commencant par {1}</value>
+    <comment>#0 type de clé, #1 texte de recherche</comment>
+  </data>
+  <data name="ActionsPersistanceBtBgSaveD" xml:space="preserve">
+    <value>Lancer une sauvegarde (snapshoot) asynchrone sur le serveur</value>
+  </data>
+  <data name="MonitorConsoleColPort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="FManagementBtDelConfirmDConnexion" xml:space="preserve">
+    <value>Etes vous certain de vouloir supprimer la connexion '{0}' ?</value>
+  </data>
+  <data name="KeySearchBtSizeOfD" xml:space="preserve">
+    <value>Calculer la tailles de toutes les clés de la recherche</value>
+  </data>
+  <data name="PubSubConsoleBtSaveD" xml:space="preserve">
+    <value>Enregistrer l'intégralité des messages reçus</value>
+  </data>
+  <data name="BtAddT" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="EditTypeListCbNewActionInsertBefore" xml:space="preserve">
+    <value>Insérer avant sélection</value>
+  </data>
+  <data name="FManageInfosBtUp" xml:space="preserve">
+    <value>Monter</value>
+  </data>
+  <data name="SentinelServersColValueT" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="MonitorConsoleTRACESTOP" xml:space="preserve">
+    <value>TRACE STOP</value>
+  </data>
+  <data name="AlarmStatusAlarmNone" xml:space="preserve">
+    <value>Aucune alarme définie</value>
+  </data>
+  <data name="KeyExplorerBtDelKeyConfirmT" xml:space="preserve">
+    <value>Suppression d'une clé</value>
+  </data>
+  <data name="FReditUtilTx" xml:space="preserve">
+    <value>Management Studio - connexion : {0}</value>
+    <comment># nom de la connexion</comment>
+  </data>
+  <data name="FManageInfosLblTitreLeft" xml:space="preserve">
+    <value>Eléments non classées :</value>
+  </data>
+  <data name="FManageInfosFillCountN" xml:space="preserve">
+    <value>{0} informations</value>
+    <comment>#0 nombre d'informations ssi &gt;1</comment>
+  </data>
+  <data name="FConnexionLbl5T" xml:space="preserve">
+    <value>Identifiant de la base :</value>
+  </data>
+  <data name="ServerResumeBtFlushConfirm2D" xml:space="preserve">
+    <value>Vous ne devriez pas effacer toutes les données de cette base.
+
+Cette opération est irréversible. On vous aura prévenu !!!
+
+Voulez vous annuler l'opération ?</value>
+  </data>
+  <data name="Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTypeTextLbl4T" xml:space="preserve">
+    <value>Editer :</value>
+  </data>
+  <data name="KeyExplorerBtAddKeyD" xml:space="preserve">
+    <value>Ajouter une nouvelle clé à la base</value>
+  </data>
+  <data name="EditTypeSetBtSearchMessageKoD" xml:space="preserve">
+    <value>{0} non trouvé dans les données de la clé {1}</value>
+    <comment>#0 Mot cherché, #1 clé en cours d'affichage</comment>
+  </data>
+  <data name="FManagemenFolderRacineT" xml:space="preserve">
+    <value>Connexions aux bases</value>
+  </data>
+  <data name="EditTypeSetLbl2T" xml:space="preserve">
+    <value>Est il présent ? :</value>
+  </data>
+  <data name="KeyExplorerLblTTLTExpired" xml:space="preserve">
+    <value>Clé expirée</value>
+  </data>
+  <data name="ServerLight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serverLight1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BitDisplaylblDescriptionT" xml:space="preserve">
+    <value>Bit d'offset {0} : {1}</value>
+    <comment>#0 offset du bit, #1 état du bit</comment>
+  </data>
+  <data name="KeyExplorerLbl5T" xml:space="preserve">
+    <value>Durée de vie :</value>
+  </data>
+  <data name="PubSubConsoleLblPubChanel" xml:space="preserve">
+    <value>Canal :</value>
+  </data>
+  <data name="Decrement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Decrement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MonitorConsoleTRACESTART" xml:space="preserve">
+    <value>TRACE START</value>
+  </data>
+  <data name="PubSubConsoleBtSaveSelD" xml:space="preserve">
+    <value>Enregistrer les messages sélectionnés</value>
+  </data>
+  <data name="MonitorConsoleSaveFileFilter" xml:space="preserve">
+    <value>Fichier Trace (*.csv)|*.csv|Tous fichiers|*.*</value>
+  </data>
+  <data name="EditTypeListLbl4T" xml:space="preserve">
+    <value>à l'index :</value>
+  </data>
+  <data name="Export_Import32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Export_Import32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FImportExportBtOkConfirmTExport" xml:space="preserve">
+    <value>Rapport d'export</value>
+  </data>
+  <data name="BtLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\112_LeftArrowLong_Blue_16x16_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeyExplorerBtSizeOfConfirmT" xml:space="preserve">
+    <value>Calcul de la taille</value>
+  </data>
+  <data name="EditTypeCountN" xml:space="preserve">
+    <value>{0} valeurs affichées sur {1} possibles</value>
+    <comment>#0 nombre de valeurs affichée ssi &gt;1, #1 nombre de valeur dans la liste</comment>
+  </data>
+  <data name="EditTypeTextChkSetBitT" xml:space="preserve">
+    <value>Activer</value>
+  </data>
+  <data name="PubSubConsoleColMessageT" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="FAddKeyErrorKey" xml:space="preserve">
+    <value>Il faut un nom de clé</value>
+  </data>
+  <data name="ActionsCommandBtResetConfirmD" xml:space="preserve">
+    <value>Etes-vous certain de vouloir effacer la liste ?</value>
+  </data>
+  <data name="FManagementBtAddConnectionT" xml:space="preserve">
+    <value>Nouvelle connexion...</value>
+  </data>
+  <data name="KeySearchResultCount0" xml:space="preserve">
+    <value>Aucune clé trouvée</value>
+  </data>
+  <data name="FManagementMnuNewT" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="AlarmCounterUIlblSeuil1" xml:space="preserve">
+    <value>Quand la valeur est en dessous de :</value>
+  </data>
+  <data name="PubSubConsoleBtPublishT" xml:space="preserve">
+    <value>Diffuser</value>
+  </data>
+  <data name="PubSubConsoleTraceFileEntete" xml:space="preserve">
+    <value>Date{0}Action{0}Pattern{0}Canal{0}Message</value>
+    <comment>#0 séparateur</comment>
+  </data>
+  <data name="RedisClientUIStopConnexionConfirmT" xml:space="preserve">
+    <value>Confirmez</value>
+  </data>
+  <data name="PubSubConsoleColChanelT" xml:space="preserve">
+    <value>Canal</value>
+  </data>
+  <data name="RedisListInfoUIBtConfigD" xml:space="preserve">
+    <value>Classer les informations</value>
+  </data>
+  <data name="MonitorConsoleBtSaveSelD" xml:space="preserve">
+    <value>Enregistrer la sélection</value>
+  </data>
+  <data name="FimportExportTExport" xml:space="preserve">
+    <value>Exporter des connexions</value>
+  </data>
+  <data name="ActionsCommandBtResetConfirmT" xml:space="preserve">
+    <value>Confirmez l'effacement</value>
+  </data>
+  <data name="ActionsPersistanceBtSaveMessageT" xml:space="preserve">
+    <value>Sauvegarde synchrone</value>
+  </data>
+  <data name="MonitorConsoleTRACERESUME" xml:space="preserve">
+    <value>TRACE RESUME</value>
+  </data>
+  <data name="EditTypeListLbl2T" xml:space="preserve">
+    <value>Afficher de l'index :</value>
+  </data>
+  <data name="EditTypeTextLbl3T" xml:space="preserve">
+    <value>Offset :</value>
+  </data>
+  <data name="ActionsReplicationLblMasterDetailTx" xml:space="preserve">
+    <value>Maître : {0}.{1}</value>
+    <comment>#0 adresse du maître, #1 port du maître</comment>
+  </data>
+  <data name="FManagementBtQuitT" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="BtCloseT" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="ActionsReplicationLblCountSlaves1" xml:space="preserve">
+    <value>Un seul esclave</value>
+  </data>
+  <data name="PubSubConsoleLbl3T2" xml:space="preserve">
+    <value>Permet de recevoir les messages en provenance du serveur sur la canal choisi</value>
+  </data>
+  <data name="FAddKeyCountAdd1" xml:space="preserve">
+    <value>Une clé ajoutée</value>
+  </data>
+  <data name="SentinelServersCountN" xml:space="preserve">
+    <value>{0} serveurs</value>
+    <comment>#0 nombre de serveurs ssi&gt;1</comment>
+  </data>
+  <data name="EditTypeTextCbTypeAffichageBrut" xml:space="preserve">
+    <value>Valeur brute</value>
+  </data>
+  <data name="ActionsStatistiquesBtConfigResetQuestionD" xml:space="preserve">
+    <value>Etes vous certain de vouloir réinitialiser les statistiques du serveur ?</value>
+  </data>
+  <data name="EditTypeCheckIndexOrderMax" xml:space="preserve">
+    <value>La valeur doit être supérieur au min</value>
+  </data>
+  <data name="KeySearcLblDetailT" xml:space="preserve">
+    <value>Explorateur de clés : Recherche de clés</value>
+  </data>
+  <data name="BitDisplayBitOn" xml:space="preserve">
+    <value>Activé</value>
+  </data>
+  <data name="MonitorConsoleLbl1T" xml:space="preserve">
+    <value>Trace des commandes sur le serveur</value>
+  </data>
+  <data name="ServerResumeBtShutDownT" xml:space="preserve">
+    <value>Arrêter le serveur...</value>
+  </data>
+  <data name="RedisInfoUILblOriginalValueCaptionT" xml:space="preserve">
+    <value>Valeur brute :</value>
+  </data>
+  <data name="FManagementT" xml:space="preserve">
+    <value>Redis Managment Studio</value>
+  </data>
+  <data name="AlarmStatusUIImageD" xml:space="preserve">
+    <value>Alerte</value>
+  </data>
+  <data name="KeyExplorerCountListWithNValue" xml:space="preserve">
+    <value>avec {0} valeurs</value>
+    <comment>#nombre de valeur ssi &gt;1</comment>
+  </data>
+  <data name="FImportExportLblGroupeTImport" xml:space="preserve">
+    <value>Sélectionnez le groupe de serveur vers lequel importer.</value>
+  </data>
+  <data name="PubSubConsoleTxtPubMessageD" xml:space="preserve">
+    <value>Message à diffuser</value>
+  </data>
+  <data name="KeySearchLbl3T" xml:space="preserve">
+    <value>Résultat</value>
+  </data>
+  <data name="EditTypeTextLbl2T" xml:space="preserve">
+    <value>Valeur :</value>
+  </data>
+  <data name="ServerResumeLbl5T" xml:space="preserve">
+    <value>Base :</value>
+  </data>
+  <data name="BtDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\112_DownArrowLong_Blue_16x16_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTypeTextCbTypeAffichageJSon" xml:space="preserve">
+    <value>JSon</value>
+  </data>
+  <data name="weight16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weight16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PubSubConsoleLblPubMessage" xml:space="preserve">
+    <value>Message :</value>
+  </data>
+  <data name="FReditUtilT0" xml:space="preserve">
+    <value>Management Studio</value>
+  </data>
+  <data name="PubSubConsoleLbl3T1" xml:space="preserve">
+    <value>Abonnement</value>
+  </data>
+  <data name="Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActionsCommandFileErrorXT" xml:space="preserve">
+    <value>Erreur Lors de l'export des commandes lentes</value>
+  </data>
+  <data name="AlarmBoolUIlblTrueOption" xml:space="preserve">
+    <value>Quand la valeur est à Oui afficher :</value>
+  </data>
+  <data name="AlarmStatusUIBtEditD" xml:space="preserve">
+    <value>Configurer les seuils d'alerte</value>
+  </data>
+  <data name="PubSubConsoleTxtSubChanelD" xml:space="preserve">
+    <value>Nom ou pattern du canal ou s'abonner</value>
+  </data>
+  <data name="EditTypeTextBtIncrT" xml:space="preserve">
+    <value>Incrémenter de</value>
+  </data>
+  <data name="EditTypeSetLbl3T" xml:space="preserve">
+    <value>Sélection :</value>
+  </data>
+  <data name="KeySearchDisplayModeNumber" xml:space="preserve">
+    <value>Nombre : Les clés sont regrouppées par groupe de lettres ou nombre identiques</value>
+  </data>
+  <data name="EditTypeListBtDeleteD" xml:space="preserve">
+    <value>Supprimer la valeur</value>
+  </data>
+  <data name="RedisTypeUnknowError" xml:space="preserve">
+    <value>Type '{0}' non reconnu !</value>
+    <comment>#0 nom du typeà parser</comment>
+  </data>
+  <data name="EditTypeSetLbl1T" xml:space="preserve">
+    <value>Ajouter :</value>
+  </data>
+  <data name="KeyExplorerBtSetTTLD" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="EditTypeHashBtSearchMessageDOk" xml:space="preserve">
+    <value>{0} fait partie des données de la clé {1}</value>
+    <comment>#0 Texte cherché, #1 clé en cours d'édition</comment>
+  </data>
+  <data name="FManagementMnuPropertyT" xml:space="preserve">
+    <value>Propriétés...</value>
+  </data>
+  <data name="FRedisUtilLbl3T" xml:space="preserve">
+    <value>Port :</value>
+  </data>
+  <data name="ServerResumeBtShutDownConfirm2D" xml:space="preserve">
+    <value>Vous allez arrêter un serveur REDIS; Voulez vous sauvegarder les données avant l'arrêt complet ?</value>
+  </data>
+  <data name="MonitorConsoleSaveFileT" xml:space="preserve">
+    <value>Enregistrer la trace</value>
+  </data>
+  <data name="EditTypeZSetLbl2T" xml:space="preserve">
+    <value>Afficher de l'index :</value>
+  </data>
+  <data name="KeySearchErrorTooMany" xml:space="preserve">
+    <value>Trop de clés trouvées : affichage interrompu</value>
+  </data>
+  <data name="EditTypeListBtDeleteConfirmT" xml:space="preserve">
+    <value>Confirmez la suppression</value>
+  </data>
+  <data name="FImportExportLblGroupeTExport" xml:space="preserve">
+    <value>Sélectionnez une connexion unique ou un groupe de connexion contenant les connexions à exporter.</value>
+  </data>
+  <data name="FConnexionLbl6T" xml:space="preserve">
+    <value>Mot de passe :</value>
+  </data>
+  <data name="Start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeyGroupBtDelKeyConfirmTN" xml:space="preserve">
+    <value>Suppression d'un ensemble de clés</value>
+  </data>
+  <data name="PubSubConsoleSaveFileT" xml:space="preserve">
+    <value>Enregistrer les messages</value>
+  </data>
+  <data name="RedisInfoUILblValueCaptionT" xml:space="preserve">
+    <value>Valeur :</value>
+  </data>
+  <data name="PersistanceLight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PersistanceLight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTypeHashBtDeleteConfirmD" xml:space="preserve">
+    <value>Etes vous certain de vouloir supprimer cette paire clé valeur ?
+
+L'opération est irréversible.
+</value>
+  </data>
+  <data name="BtRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\112_RightArrowLong_Blue_16x16_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Redis16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Redis 16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActionsStatistiquesBtConfigResetD" xml:space="preserve">
+    <value>Réinitialise les statistiques rapportées par la commande INFO de Redis.
+
+Les compteurs sont les suivant :
+ • Visties des clés
+ • clé non trouvées
+ • Nombre de commandes traitées
+ • Nombre de connexions reçues
+ • Nombre de clés expirées
+ • Nombre de connexions rejetées
+ • Dernièr fork
+ • Le compteur aof_delayed_fsync</value>
+  </data>
+  <data name="ConnectionParamToString" xml:space="preserve">
+    <value>{0} : Adresse : {1} Port {2} Base N°{3} : {4}</value>
+    <comment>#0 name, #1 url, #2 port, #3 base, #4 description</comment>
+  </data>
+  <data name="AlarmNone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NoImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTypeFillDisplayMoreD" xml:space="preserve">
+    <value>Il y a d'autres valeurs</value>
+  </data>
+  <data name="EditTypeHashBtSearchMessageDKo" xml:space="preserve">
+    <value>{0} non trouvé dans les données de la clé {1}</value>
+    <comment>#0 Texte cherché, #1 clé en cours d'édition</comment>
+  </data>
+  <data name="ActionsReplicationTxtAdresseD" xml:space="preserve">
+    <value>Adresse du serveur maître</value>
+  </data>
+  <data name="Delete12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_12x12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTypeCheckIndexMaxError" xml:space="preserve">
+    <value>Valeur trop grande (maximum = {0})</value>
+    <comment>#0 valeur maximale autorisée</comment>
+  </data>
+  <data name="BtSaveT" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="PubSubConsoleTraceFileRow" xml:space="preserve">
+    <value>{1}{0}{2}{0}{3}{0}{4}{0}{5}</value>
+    <comment>#0 séparateur, #1 Date, #2 Action, #3 Pattern, #4 Canal, #5 Message</comment>
+  </data>
+  <data name="MonitorConsoleTraceDefaultFile" xml:space="preserve">
+    <value>Trace.csv</value>
+  </data>
+  <data name="ServerResumeLbl1T" xml:space="preserve">
+    <value>Connexion :</value>
+  </data>
+  <data name="RedisClientUIlblDetailT0" xml:space="preserve">
+    <value>Sélectionnez un client</value>
+  </data>
+  <data name="FManageInfosBtDown" xml:space="preserve">
+    <value>Descendre</value>
+  </data>
+  <data name="KeyExplorerBtAddKeyConfirmT" xml:space="preserve">
+    <value>Ajout de clés</value>
+  </data>
+  <data name="AlarmRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlarmRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FRedisUtilLbl2T" xml:space="preserve">
+    <value>Adresse :</value>
+  </data>
+  <data name="ActionsReplicationLbl6T" xml:space="preserve">
+    <value>Autonome</value>
+  </data>
+  <data name="PubSubConsoleColDateT" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="EditTypeListBtDeleteConfirmD" xml:space="preserve">
+    <value>Etes vous certain de vouloir supprimer cette valeur ?
+
+L'opération est irréversible.</value>
+  </data>
+  <data name="EditTypeHashLblEditionTEdit" xml:space="preserve">
+    <value>Modifier :</value>
+  </data>
+  <data name="RedisClientUICountClient1" xml:space="preserve">
+    <value>Un seul client connecté</value>
+  </data>
+  <data name="EditTypeTextCbTypeAffichageNumber" xml:space="preserve">
+    <value>Numérique</value>
+  </data>
+  <data name="KeySearchErrorConnection" xml:space="preserve">
+    <value>Pas de connection, pas de recherche</value>
+  </data>
+  <data name="EditTypeHashLbl3T" xml:space="preserve">
+    <value>Sélection :</value>
+  </data>
+  <data name="FManageInfosLbl2T" xml:space="preserve">
+    <value>Type de données :</value>
+  </data>
+  <data name="EditTypeListLbl3T" xml:space="preserve">
+    <value>Sélection :</value>
+  </data>
+  <data name="Warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FManagementMnuExportT" xml:space="preserve">
+    <value>Exporter...</value>
+  </data>
+  <data name="FImportExportBtOkConfirmDErrImport" xml:space="preserve">
+    <value>Le fichier d'import choisi est introuvable</value>
+  </data>
+  <data name="ActionsReplicationLblMasterPortNone" xml:space="preserve">
+    <value>??</value>
+  </data>
+  <data name="Edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FImportExportLblTitreTExport" xml:space="preserve">
+    <value>Vous pouvez exporter les informations de connexion vers un fichier pour un import ultérieur vers un groupe de connexion. Vous pouvez exporter la totalité des groupes ou uniquement une connexion.</value>
+  </data>
+  <data name="EditTypeZSetTxtIndexMinD" xml:space="preserve">
+    <value>Index minimum à afficher</value>
+  </data>
+  <data name="KeyGroupBtDelKeyConfirmDN" xml:space="preserve">
+    <value>Etes vous certain de vouloir supprimer les {0} clés sélectionnées, l'opération est irréversible ?</value>
+  </data>
+  <data name="FImportExportLblTitreTImport" xml:space="preserve">
+    <value>Vous pouvez importer un fichier précédemment exporté dans un groupe de connexion au sein de l'arborescence existante.</value>
+  </data>
+  <data name="RedisClientUIColValueT" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="FManageInfosColCommand" xml:space="preserve">
+    <value>Commande</value>
+  </data>
+  <data name="ServerResumeLbl6T" xml:space="preserve">
+    <value>Version :</value>
+  </data>
+  <data name="PubSubConsoleBtClearD" xml:space="preserve">
+    <value>Effacer la liste des messages</value>
+  </data>
+  <data name="FManageInfosT" xml:space="preserve">
+    <value>Configurer les informations serveur</value>
+  </data>
+  <data name="FimportExportOpenFileFilter" xml:space="preserve">
+    <value>Fichiers XML|*.xml|Tous fichiers|*.*</value>
+  </data>
+  <data name="FManageInfosColAlarm" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="MonitorConsoleCountN" xml:space="preserve">
+    <value>{0} commandes</value>
+    <comment>#0 nombre de commandes ssi &gt;1</comment>
+  </data>
+  <data name="PubSubConsoleBtPublishConfirmDN" xml:space="preserve">
+    <value>Message diffusé.
+{0} clients abonnés à ce canal</value>
+    <comment>#0 nombre d'abonnés</comment>
+  </data>
+  <data name="MonitorConsoleBtClearD" xml:space="preserve">
+    <value>Effacer la trace en cours</value>
+  </data>
+  <data name="ConfigEditUIBtSaveTitre" xml:space="preserve">
+    <value>Enregistrement d'une configuration</value>
+  </data>
+  <data name="FFolderLbl4T" xml:space="preserve">
+    <value>Sélectionnez un emplacement parent :</value>
+  </data>
+  <data name="ReplicationLight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReplicationLight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeySize0" xml:space="preserve">
+    <value>0 Octect.</value>
+  </data>
+  <data name="ActionsPersistanceBtSaveMessageD" xml:space="preserve">
+    <value>Sauvegarde terminée.</value>
+  </data>
+  <data name="MonitorConsoleTraceFileRow" xml:space="preserve">
+    <value>{1}{0}{2}{0}{3}</value>
+    <comment>#0 séparateur des colonnes (;), #1 la date, #2 l'adresse IP, #3 la commande</comment>
+  </data>
+  <data name="EditTypeZSetLbl4T" xml:space="preserve">
+    <value>à l'index :</value>
+  </data>
+  <data name="ServerResumeBtFlushConfirmT" xml:space="preserve">
+    <value>Effacer les données de la base N°{0}</value>
+    <comment>#0 id de la base</comment>
+  </data>
+  <data name="KeyExplorerBtSizeOfConfirmDN1" xml:space="preserve">
+    <value>La taille totale de la clé est de : {0}</value>
+  </data>
+  <data name="ActionsCommandFileRow" xml:space="preserve">
+    <value>{1}{0}{2}{0}{3}{0}{4}</value>
+    <comment>#0 le séparateur de colonne, #1 rang, #2 Date, #3 Durée, #4 Ligne de commande</comment>
+  </data>
+  <data name="Version" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Version.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SentinelServersDescriptionCaptionT" xml:space="preserve">
+    <value>Description :</value>
+  </data>
+  <data name="FManagementMnuConnectT" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="KeySearchLbl4T" xml:space="preserve">
+    <value>Nombre de caractères en commun minimum</value>
+  </data>
+  <data name="KeyExplorerLbl3T" xml:space="preserve">
+    <value>Valeur :</value>
+  </data>
+  <data name="PubSubConsoleBtPublishConfirmD0" xml:space="preserve">
+    <value>Message diffusé.
+Aucun client abonné à ce canal</value>
+  </data>
+  <data name="MonitorConsoleBtPauseD" xml:space="preserve">
+    <value>Interrompre la Trace</value>
+  </data>
+  <data name="FAddKeyErrorValue2" xml:space="preserve">
+    <value>Il faut une valeur</value>
+  </data>
+  <data name="EditTypeZSetLblEditionDAdd" xml:space="preserve">
+    <value>Ajouter le nouveau membre</value>
+  </data>
+  <data name="MonitorConsoleChkScrollOff" xml:space="preserve">
+    <value>Cliquez pour activer le défilement automatique des commandes</value>
+  </data>
+  <data name="AlarmCounterUIlblIcone2" xml:space="preserve">
+    <value>afficher</value>
+  </data>
+  <data name="EditTypeZSetBtAdd" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="MonitorConsoleBtStopD" xml:space="preserve">
+    <value>Arrêter la trace</value>
+  </data>
+  <data name="MonitorConsoleColDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="FManageInfosBtTop" xml:space="preserve">
+    <value>Premier</value>
+  </data>
+  <data name="FManagementMnuConnectionT" xml:space="preserve">
+    <value>Connexion...</value>
+  </data>
+  <data name="FManageInfosColCode" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="ServerResumeBtFlushDB" xml:space="preserve">
+    <value>Effacer les données de la base N°{0}...</value>
+    <comment>#0 id de la base</comment>
+  </data>
+  <data name="PubSubConsoleSaveFileFilter" xml:space="preserve">
+    <value>Fichier de messages (*.csv)|*.csv|Tous fichiers|*.*</value>
+  </data>
+  <data name="KeySearchDisplayModeText" xml:space="preserve">
+    <value>Caractère : Les clés sont regroupées lorsqu'elles ont la même séquence de caractères quels qu'ils soient</value>
+  </data>
+  <data name="ActionsReplicationLbl2T" xml:space="preserve">
+    <value>Actuellement :</value>
+  </data>
+  <data name="AlarmOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlarmOrange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PubSubConsoleBtStopD" xml:space="preserve">
+    <value>Stopper l'abonnement au canal {0}</value>
+    <comment>#0 nom du canal</comment>
+  </data>
+  <data name="ActionsStatistiquesBtConfigResetOk" xml:space="preserve">
+    <value>Statistiques renitialisées avec succès</value>
+  </data>
+  <data name="ServerResumeBtShutDownConfirmT" xml:space="preserve">
+    <value>Arrêter le serveur</value>
+  </data>
+  <data name="ServerResumeColKeys" xml:space="preserve">
+    <value>Nombre de clés</value>
+  </data>
+  <data name="AlarmCounterUIlblSeuil2" xml:space="preserve">
+    <value>Puis quand la valeur est en dessous de :</value>
+  </data>
+  <data name="ClientKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClientKill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SentinelServerSuivisListInfoToStringE" xml:space="preserve">
+    <value>Esclave N°{0} : {1}</value>
+    <comment>#0 index de l'esclave, #1 nom de l'esclave</comment>
+  </data>
+  <data name="ActionsCommandFileError0D" xml:space="preserve">
+    <value>Aucune donnée pour l'instant</value>
+  </data>
+  <data name="ActionsStatistiquesBtConfigResetQuestionT" xml:space="preserve">
+    <value>Réinitialisation des statistiques</value>
+  </data>
+  <data name="KeyExplorerTTLFormatHours" xml:space="preserve">
+    <value>Heures</value>
+  </data>
+  <data name="FAddKeyErrorValue3" xml:space="preserve">
+    <value>Il faut un score</value>
+  </data>
+  <data name="FAddKeyBtOkErrorT" xml:space="preserve">
+    <value>Erreur d'insertion</value>
+  </data>
+  <data name="FConnexionLbl3T" xml:space="preserve">
+    <value>Adresse du serveur :</value>
+  </data>
+  <data name="FManagementBtConnectErrVersionT" xml:space="preserve">
+    <value>Version incompatible</value>
+  </data>
+  <data name="ServerResumeBtFlushResultAllOkD" xml:space="preserve">
+    <value>Opération terminée, plus aucune donnée sur le serveur.</value>
+  </data>
+  <data name="AlarmStatusAlarmOrange" xml:space="preserve">
+    <value>Seuil à surveillé ateind</value>
+  </data>
+  <data name="FManagementBtConnectErrVersionD" xml:space="preserve">
+    <value>Le serveur contacté est en version {0}. Cette application requiert une vers au moins supérieur à 2.4 pour fonctionner</value>
+  </data>
+  <data name="KeyExplorerLblTTLTInfinite" xml:space="preserve">
+    <value>Infinie</value>
+  </data>
+  <data name="ActionsReplicationBtSlaveOfT" xml:space="preserve">
+    <value>S'abonner</value>
+  </data>
+  <data name="ConfigEditUIBtSaveError" xml:space="preserve">
+    <value>Erreur dure l'enregistrement de l'information :
+
+{0}</value>
+    <comment>#0 Message d'erreur</comment>
+  </data>
+  <data name="EditTypeCount1" xml:space="preserve">
+    <value>Une seule valeur affichée sur {0} possibles</value>
+    <comment>#0 nombre de valeurs dans la liste</comment>
+  </data>
+  <data name="MonitorConsoleCount1" xml:space="preserve">
+    <value>Une seule commande</value>
+  </data>
+  <data name="RedisClientUICountClientN" xml:space="preserve">
+    <value>{0} clients connectés</value>
+    <comment>#0 nombre de clients ssi &gt;1</comment>
+  </data>
+  <data name="FFolderT" xml:space="preserve">
+    <value>Groupe de connexions</value>
+  </data>
+  <data name="Client32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Client32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTypeHashColKeyT" xml:space="preserve">
+    <value>Clé</value>
+  </data>
+  <data name="ActionsCommandBtShowD" xml:space="preserve">
+    <value>Affiche les commandes les plus lentes</value>
+  </data>
+  <data name="BtUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\112_UpArrowLong_Blue_16x16_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FFolderLbl2T" xml:space="preserve">
+    <value>Nom du groupe :</value>
+  </data>
+  <data name="BtDernier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\112_ArrowCurve_Blue_Left_16x16_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeySearchResultCountTooMany" xml:space="preserve">
+    <value>Affichage partiel du résultat car plus de {0} clés trouvées</value>
+    <comment>#0 nombre de résultat maxi affichés</comment>
+  </data>
+  <data name="Rename" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rename.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FRenameOk" xml:space="preserve">
+    <value>Renommer</value>
+  </data>
+  <data name="FRenameText" xml:space="preserve">
+    <value>Renommer une clé</value>
+  </data>
+  <data name="FRenameTitreNew" xml:space="preserve">
+    <value>Nouveau nom</value>
+  </data>
+  <data name="FRenameTitreOld" xml:space="preserve">
+    <value>Ancien nom</value>
+  </data>
+</root>

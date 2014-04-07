@@ -1,0 +1,174 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RedisManagementStudio.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FFolderPosition" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">200, 200</Value>
+    </Setting>
+    <Setting Name="FFolderDimension" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">363, 393</Value>
+    </Setting>
+    <Setting Name="FConnexionPosition" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">200, 200</Value>
+    </Setting>
+    <Setting Name="FConnexionDimension" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">434, 473</Value>
+    </Setting>
+    <Setting Name="FImportExportPosition" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">200, 200</Value>
+    </Setting>
+    <Setting Name="FImportExportDimension" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">498, 420</Value>
+    </Setting>
+    <Setting Name="FRedisUtilPostion" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">200, 200</Value>
+    </Setting>
+    <Setting Name="FRedisUtilDimension" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">900, 460</Value>
+    </Setting>
+    <Setting Name="FRedisUtilSplit" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">155</Value>
+    </Setting>
+    <Setting Name="RedisListInfoUIColProperty" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">250</Value>
+    </Setting>
+    <Setting Name="RedisListInfoUIColValue" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="FRedisUtilClientListUISplit" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">280</Value>
+    </Setting>
+    <Setting Name="RedisClientListUISplit" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">280</Value>
+    </Setting>
+    <Setting Name="RedisClientListUIColProperty" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="RedisClientListUIColValue" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="FManagementPosition" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">200, 300</Value>
+    </Setting>
+    <Setting Name="FManagementDimension" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">600, 445</Value>
+    </Setting>
+    <Setting Name="ColWidthEditHashKey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="ColWidthEditHashValue" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="ColWidthEditHashNew" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="ColWidthEditTextKey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="ColWidthEditTextValue" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="ColWidthEditZSetMembre" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="ColWidthEditZSetScore" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="ColWidthEditZSetNew" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="FManageInfoPosition" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">200, 150</Value>
+    </Setting>
+    <Setting Name="FManageInfoDimensions" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">700, 450</Value>
+    </Setting>
+    <Setting Name="FManageInfoSpliter" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">600</Value>
+    </Setting>
+    <Setting Name="ColManageCommand" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">120</Value>
+    </Setting>
+    <Setting Name="ColManageCode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">120</Value>
+    </Setting>
+    <Setting Name="ColManageTypeAlarm" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="ColManageTitre" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">250</Value>
+    </Setting>
+    <Setting Name="KeySearchDisplayMode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ColWidthMonitorDate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">180</Value>
+    </Setting>
+    <Setting Name="ColWidthMonitorIp" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">120</Value>
+    </Setting>
+    <Setting Name="ColWidthMonitorCommand" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="MonitorConsoleScroll" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MonitorConsoleSaveFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="KeySearchDisplayMelangeType" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ColWidthPubSubDate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">120</Value>
+    </Setting>
+    <Setting Name="ColWidthPubSubAction" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="ColWidthPubSubPattern" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="ColWidthPubSubChanel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="ColWidthPubSubMessage" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="FAddKeyLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">200, 200</Value>
+    </Setting>
+    <Setting Name="FAddKeyDimension" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">347, 254</Value>
+    </Setting>
+    <Setting Name="ColWidthMonitorBase" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="ColWidthMonitorPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="KeySearchNombreMinChar" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="KeyGroupColCle" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="KeyGroupColType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="ColWidthSentinelServersProperty" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="ColWidthSentinelServersValue" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="SentinelServersSplitter" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">410</Value>
+    </Setting>
+    <Setting Name="FRenamePosition" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">200, 100</Value>
+    </Setting>
+    <Setting Name="FRenameDimension" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">300, 165</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

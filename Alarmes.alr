@@ -1,0 +1,2 @@
+BoolControl@{"Id":"loading","Type":"BoolControl","True":"AlarmGreen","False":"AlarmRed"}
+BoolControl@{"Id":"aof_enabled","Type":"BoolControl","True":"AlarmNone","False":"AlarmOrange"}

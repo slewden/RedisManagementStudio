@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Folder Open="1">
+  <Name>Serveurs Locaux</Name>
+  <Folders>
+    <Folder Open="1">
+      <Name>TTOO</Name>
+      <Description>kmlk</Description>
+      <Folders />
+      <Connections>
+        <Connection>
+          <Name>Conn1</Name>
+          <Base>2</Base>
+          <Color>-65408</Color>
+        </Connection>
+      </Connections>
+    </Folder>
+  </Folders>
+  <Connections />
+</Folder>

@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2CCDB084-DED6-4B7A-AE6B-C5390E68630D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RedisManagementStudio</RootNamespace>
+    <AssemblyName>RedisManagementStudio</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Redis.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Alarm\AlarmDownCounter.cs" />
+    <Compile Include="BLL\Alarm\AlarmUpCounter.cs" />
+    <Compile Include="BLL\CommandMenu.cs" />
+    <Compile Include="BLL\CommandMenuAction.cs" />
+    <Compile Include="BLL\Connection\ConnectionFolder.cs" />
+    <Compile Include="BLL\Connection\IConnection.cs" />
+    <Compile Include="BLL\Connection\RedisConnectionParam.cs" />
+    <Compile Include="BLL\Helper.cs" />
+    <Compile Include="BLL\ImageLib.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BLL\ImageLib.Designer.cs">
+      <DependentUpon>ImageLib.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Alarm\AlarmBool.cs" />
+    <Compile Include="BLL\Alarm\AlarmCounter.cs" />
+    <Compile Include="BLL\Alarm\AlarmBoolUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Alarm\AlarmBoolUI.Designer.cs">
+      <DependentUpon>AlarmBoolUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Alarm\AlarmSaver.cs" />
+    <Compile Include="BLL\Alarm\AlarmStatusUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Alarm\AlarmStatusUI.Designer.cs">
+      <DependentUpon>AlarmStatusUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Alarm\IAlarm.cs" />
+    <Compile Include="BLL\Redis\Command\ActionsReplication.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Command\ActionsReplication.Designer.cs">
+      <DependentUpon>ActionsReplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\EditTypeHash.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\EditTypeHash.Designer.cs">
+      <DependentUpon>EditTypeHash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\EditTypeList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\EditTypeList.Designer.cs">
+      <DependentUpon>EditTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\EditTypeSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\EditTypeSet.Designer.cs">
+      <DependentUpon>EditTypeSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\EditTypeText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\EditTypeText.Designer.cs">
+      <DependentUpon>EditTypeText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\EditTypeZSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\EditTypeZSet.Designer.cs">
+      <DependentUpon>EditTypeZSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\FAddKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\FAddKey.Designer.cs">
+      <DependentUpon>FAddKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\FRename.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\FRename.Designer.cs">
+      <DependentUpon>FRename.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\KeyGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\KeyGroup.Designer.cs">
+      <DependentUpon>KeyGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\KeySearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\KeySearch.Designer.cs">
+      <DependentUpon>KeySearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\KeySearchResult.cs" />
+    <Compile Include="BLL\Redis\Keys\KeysExplorer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\KeysExplorer.Designer.cs">
+      <DependentUpon>KeysExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Menu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Menu.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Menu2.cs" />
+    <Compile Include="BLL\Redis\Command\ActionsCommand.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Command\ActionsCommand.Designer.cs">
+      <DependentUpon>ActionsCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Command\ActionsPersistance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Command\ActionsPersistance.Designer.cs">
+      <DependentUpon>ActionsPersistance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Command\ActionsStatistiques.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Command\ActionsStatistiques.Designer.cs">
+      <DependentUpon>ActionsStatistiques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Config\ConfigEditUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Config\ConfigEditUI.Designer.cs">
+      <DependentUpon>ConfigEditUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Config\RedisConfigTranslator.cs" />
+    <Compile Include="BLL\Redis\InformationDansRubriqueRessources2.cs" />
+    <Compile Include="BLL\Redis\InformationDansRubriqueRessources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InformationDansRubriqueRessources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\ListViewTextSorter.cs" />
+    <Compile Include="BLL\Redis\Monitor\MonitorConsole.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Monitor\MonitorConsole.Designer.cs">
+      <DependentUpon>MonitorConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Monitor\PubSubConsole.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Monitor\PubSubConsole.Designer.cs">
+      <DependentUpon>PubSubConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\RedisConnection.cs" />
+    <Compile Include="BLL\Redis\RedisListInfoUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\RedisListInfoUI.Designer.cs">
+      <DependentUpon>RedisListInfoUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\InformationBase.cs" />
+    <Compile Include="BLL\Redis\Client\RedisClientListInfo.cs" />
+    <Compile Include="BLL\Redis\Client\RedisClientListTranslator.cs" />
+    <Compile Include="BLL\Redis\Client\RedisClientUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Client\RedisClientUI.Designer.cs">
+      <DependentUpon>RedisClientUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\RedisType.cs" />
+    <Compile Include="BLL\Redis\InformationDansRubrique.cs" />
+    <Compile Include="BLL\Redis\RubriqueManager.cs" />
+    <Compile Include="BLL\Redis\RubriqueResource.cs" />
+    <Compile Include="BLL\Redis\Config\RedisInfoTranslator.cs" />
+    <Compile Include="BLL\Alarm\AlarmCounterUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Alarm\AlarmCounterUI.Designer.cs">
+      <DependentUpon>AlarmCounterUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\RedisInfoUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\RedisInfoUI.Designer.cs">
+      <DependentUpon>RedisInfoUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Rubrique.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rubrique.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\RubriqueUtil.cs" />
+    <Compile Include="BLL\Redis\Keys\BitDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Keys\BitDisplay.Designer.cs">
+      <DependentUpon>BitDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Sentinel\SentinelServersUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\Sentinel\SentinelServersUI.Designer.cs">
+      <DependentUpon>SentinelServersUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\Sentinel\SentinelServer.cs" />
+    <Compile Include="BLL\Redis\Sentinel\SentinelServerSuivisInfo.cs" />
+    <Compile Include="BLL\Redis\ServerResume.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\ServerResume.Designer.cs">
+      <DependentUpon>ServerResume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\StringCorrectComparer.cs" />
+    <Compile Include="BLL\UI\FConnexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLL\UI\FConnexion.Designer.cs">
+      <DependentUpon>FConnexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\UI\FFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLL\UI\FFolder.Designer.cs">
+      <DependentUpon>FFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\UI\FImportExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLL\UI\FImportExport.Designer.cs">
+      <DependentUpon>FImportExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\UI\NumericTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BLL\UI\NumericTextBox.Designer.cs">
+      <DependentUpon>NumericTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Redis\FManageInfos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLL\Redis\FManageInfos.Designer.cs">
+      <DependentUpon>FManageInfos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FManagement.Designer.cs">
+      <DependentUpon>FManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRedisUtil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRedisUtil.Designer.cs">
+      <DependentUpon>FRedisUtil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTest.Designer.cs">
+      <DependentUpon>FTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BLL\ImageLib.resx">
+      <DependentUpon>ImageLib.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Alarm\AlarmBoolUI.resx">
+      <DependentUpon>AlarmBoolUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Alarm\AlarmStatusUI.resx">
+      <DependentUpon>AlarmStatusUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Command\ActionsReplication.resx">
+      <DependentUpon>ActionsReplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Keys\EditTypeHash.resx">
+      <DependentUpon>EditTypeHash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Keys\EditTypeList.resx">
+      <DependentUpon>EditTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Keys\EditTypeSet.resx">
+      <DependentUpon>EditTypeSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Keys\EditTypeText.resx">
+      <DependentUpon>EditTypeText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Keys\EditTypeZSet.resx">
+      <DependentUpon>EditTypeZSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Keys\FAddKey.resx">
+      <DependentUpon>FAddKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Keys\FRename.resx">
+      <DependentUpon>FRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Keys\KeyGroup.resx">
+      <DependentUpon>KeyGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Keys\KeySearch.resx">
+      <DependentUpon>KeySearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Keys\KeysExplorer.resx">
+      <DependentUpon>KeysExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Menu.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Menu.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Client\RedisClientUI.resx">
+      <DependentUpon>RedisClientUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Command\ActionsCommand.resx">
+      <DependentUpon>ActionsCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Command\ActionsPersistance.resx">
+      <DependentUpon>ActionsPersistance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Command\ActionsStatistiques.resx">
+      <DependentUpon>ActionsStatistiques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Config\ConfigEditUI.resx">
+      <DependentUpon>ConfigEditUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\InformationDansRubriqueRessources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>InformationDansRubriqueRessources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Monitor\MonitorConsole.resx">
+      <DependentUpon>MonitorConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Monitor\PubSubConsole.resx">
+      <DependentUpon>PubSubConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\RedisListInfoUI.resx">
+      <DependentUpon>RedisListInfoUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Alarm\AlarmCounterUI.resx">
+      <DependentUpon>AlarmCounterUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\RedisInfoUi.resx">
+      <DependentUpon>RedisInfoUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Rubrique.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Rubrique.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Keys\BitDisplay.resx">
+      <DependentUpon>BitDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\Sentinel\SentinelServersUI.resx">
+      <DependentUpon>SentinelServersUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\ServerResume.resx">
+      <DependentUpon>ServerResume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\UI\FConnexion.resx">
+      <DependentUpon>FConnexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\UI\FFolder.resx">
+      <DependentUpon>FFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\UI\FImportExport.resx">
+      <DependentUpon>FImportExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\UI\NumericTextBox.resx">
+      <DependentUpon>NumericTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\Redis\FManageInfos.resx">
+      <DependentUpon>FManageInfos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FManagement.resx">
+      <DependentUpon>FManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRedisUtil.resx">
+      <DependentUpon>FRedisUtil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTest.resx">
+      <DependentUpon>FTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClientRedisLib\ClientRedisLib.csproj">
+      <Project>{b8c62e80-087c-4af7-9dd4-a9f8a685e061}</Project>
+      <Name>ClientRedisLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceStack.Text\ServiceStack.Text.csproj">
+      <Project>{579B3FDB-CDAD-44E1-8417-885C38E49A0E}</Project>
+      <Name>ServiceStack.Text</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Redis 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Export_Import32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pinned.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnPinnedToolsTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\112_RefreshArrow_Green_16x16_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlarmOrange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlarmRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlarmVerte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serverLight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serverLight1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClientLight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CommandLight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryCPULight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PersistanceLight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReplicationLight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StatisticsLight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClientKill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Configuration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Redis.ico" />
+    <None Include="Resources\Client32.png" />
+    <None Include="Resources\112_UpArrowLong_Blue_16x16_72.png" />
+    <None Include="Resources\112_ArrowCurve_Blue_Right_16x16_72.png" />
+    <None Include="Resources\112_DownArrowLong_Blue_16x16_72.png" />
+    <None Include="Resources\112_ArrowCurve_Blue_Left_16x16_72.png" />
+    <None Include="Resources\112_LeftArrowLong_Blue_16x16_72.png" />
+    <None Include="Resources\112_RightArrowShort_Blue_16x16_72.png" />
+    <None Include="Resources\112_RightArrowLong_Blue_16x16_72.png" />
+    <None Include="Resources\Version.png" />
+    <None Include="Resources\Pause.png" />
+    <None Include="Resources\Start.png" />
+    <None Include="Resources\Erase.png" />
+    <None Include="Resources\Defillement.png" />
+    <None Include="Resources\Stop.png" />
+    <None Include="Resources\saveSelection.png" />
+    <None Include="Resources\TousTypes.png" />
+    <None Include="Resources\weight16.png" />
+    <None Include="Resources\Rename.png" />
+    <Content Include="TODO.txt" />
+    <None Include="Resources\Decrement.png" />
+    <None Include="Resources\increment.png" />
+    <None Include="Resources\Redis 16.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

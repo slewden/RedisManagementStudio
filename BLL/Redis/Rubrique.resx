@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CmdInfoRubriqueAllRubrique" xml:space="preserve">
+    <value>Toutes rubriques</value>
+  </data>
+  <data name="CmdInfoRubriqueClient" xml:space="preserve">
+    <value>Clients</value>
+  </data>
+  <data name="CmdInfoRubriqueCommand" xml:space="preserve">
+    <value>Commandes</value>
+  </data>
+  <data name="CmdInfoRubriqueConfiguration" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="CmdInfoRubriqueMemoryCPU" xml:space="preserve">
+    <value>Mémoire &amp; Processeur</value>
+  </data>
+  <data name="CmdInfoRubriqueNone" xml:space="preserve">
+    <value>Non affiché</value>
+  </data>
+  <data name="CmdInfoRubriquePersistance" xml:space="preserve">
+    <value>Sauvegarde </value>
+  </data>
+  <data name="CmdInfoRubriquePersistanceLoading" xml:space="preserve">
+    <value>Chargement en cours...</value>
+  </data>
+  <data name="CmdInfoRubriqueReplication" xml:space="preserve">
+    <value>Réplication &amp; Cluster</value>
+  </data>
+  <data name="CmdInfoRubriqueSentinel" xml:space="preserve">
+    <value>Sentinel</value>
+  </data>
+  <data name="CmdInfoRubriqueServer" xml:space="preserve">
+    <value>Serveur</value>
+  </data>
+  <data name="CmdInfoRubriqueStatistics" xml:space="preserve">
+    <value>Statistiques</value>
+  </data>
+  <data name="CmdInfoRubriqueUnKnow" xml:space="preserve">
+    <value>Inconnus</value>
+  </data>
+  <data name="ETypeKeyFolderD" xml:space="preserve">
+    <value>Regrouppement de clés</value>
+  </data>
+  <data name="ETypeKeyFolderT" xml:space="preserve">
+    <value>Regrouppement</value>
+  </data>
+  <data name="ETypeKeyThashD" xml:space="preserve">
+    <value>Dictionnaire : Ensemble de Clés / Valeurs, permet de représenter des objets sous la forme propriété valeur.</value>
+  </data>
+  <data name="ETypeKeyThashF" xml:space="preserve">
+    <value>de type disctionnaire</value>
+  </data>
+  <data name="ETypeKeyThashT" xml:space="preserve">
+    <value>Dictionnaire</value>
+  </data>
+  <data name="ETypeKeyTlistD" xml:space="preserve">
+    <value>Liste : une liste permet d'enregistrer des chaines et d'y accéder par un index. Elle est trié dans l'ordre d'insertion. On peut y ajouter des valeur par l'entête ou la fin de la liste.</value>
+  </data>
+  <data name="ETypeKeyTlistF" xml:space="preserve">
+    <value>de type liste</value>
+  </data>
+  <data name="ETypeKeyTlistT" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="ETypeKeyTnoneD" xml:space="preserve">
+    <value>Aucun : La clé a été supprimé après le dernier rafraichissement de l'écran.</value>
+  </data>
+  <data name="ETypeKeyTnoneF" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ETypeKeyTnoneT" xml:space="preserve">
+    <value>Aucun : clé inconnue</value>
+  </data>
+  <data name="ETypeKeyTsetD" xml:space="preserve">
+    <value>Set : Ensemble de valeurs non ordonnées et uniques. Lorsque l'on ajoute une valeur à un Set si celle ci exiiste déjà cela n'a aucun effet.</value>
+  </data>
+  <data name="ETypeKeyTsetF" xml:space="preserve">
+    <value>de type Set</value>
+  </data>
+  <data name="ETypeKeyTsetT" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="ETypeKeyTstringD" xml:space="preserve">
+    <value>Chaîne : Représente un tableau de Bytes. Permet de stoquer des chaines diverses, des nombres, des vecteurs de booléens.</value>
+  </data>
+  <data name="ETypeKeyTstringF" xml:space="preserve">
+    <value>de type chaîne</value>
+  </data>
+  <data name="ETypeKeyTstringT" xml:space="preserve">
+    <value>Chaîne</value>
+  </data>
+  <data name="ETypeKeyTzsetD" xml:space="preserve">
+    <value>Set trié : Ensemble de valeurs associées à un score, chaque valeur est unique dans le set, et les valeurs sont classé par ordre des scores.</value>
+  </data>
+  <data name="ETypeKeyTzsetF" xml:space="preserve">
+    <value>de type set trié</value>
+  </data>
+  <data name="ETypeKeyTzsetT" xml:space="preserve">
+    <value>Set trié</value>
+  </data>
+  <data name="ETypeKeyUnKnowD" xml:space="preserve">
+    <value>Non connu Desc</value>
+  </data>
+  <data name="ETypeKeyUnKnowF" xml:space="preserve">
+    <value>de tous types</value>
+  </data>
+  <data name="ETypeKeyUnKnowR" xml:space="preserve">
+    <value>[Tous]</value>
+  </data>
+  <data name="ETypeKeyUnKnowT" xml:space="preserve">
+    <value>Non connu</value>
+  </data>
+</root>
