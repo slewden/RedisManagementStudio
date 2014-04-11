@@ -42,6 +42,10 @@
     <ApplicationIcon>Redis.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ClientRedisLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Assembly\ClientRedisLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -453,10 +457,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClientRedisLib\ClientRedisLib.csproj">
-      <Project>{b8c62e80-087c-4af7-9dd4-a9f8a685e061}</Project>
-      <Name>ClientRedisLib</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ServiceStack.Text\ServiceStack.Text.csproj">
       <Project>{579B3FDB-CDAD-44E1-8417-885C38E49A0E}</Project>
       <Name>ServiceStack.Text</Name>
@@ -550,6 +550,7 @@
     <None Include="Resources\Search.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assembly\ClientRedisLib.dll" />
     <Content Include="Redis.ico" />
     <None Include="Resources\Client32.png" />
     <None Include="Resources\112_UpArrowLong_Blue_16x16_72.png" />
