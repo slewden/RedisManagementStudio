@@ -352,7 +352,9 @@ namespace RedisManagementStudio.BLL.Alarm
       foreach (string key in lst.Keys)
       {
         var n = lst[key];
-        sw.WriteLine(string.Format("{0}@{1}", typ, n.SerializeToString()));
+				//GDA
+				// patch probable de servicestack.text , a reporter ailleur dans ce projet
+				//      sw.WriteLine(string.Format("{0}@{1}", typ, n.SerializeToString()));
       }
     }
 
